@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_userPass</name>
+   <name>input__txtMinAmount</name>
    <tag></tag>
-   <elementGuidId>e6cf4f6a-b9ae-4867-87e8-d0d7f5207d52</elementGuidId>
+   <elementGuidId>daa87cee-f9b8-4560-bcfc-894857dfc032</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='userPass']</value>
+         <value>//input[@id='txtMinAmount']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#userPass</value>
+         <value>#txtMinAmount</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e5c177f4-8904-4908-b3fb-e19a2e4487d1</webElementGuid>
+      <webElementGuid>f4eaea2f-9050-4843-a76f-f0be537cfb22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>37a8a82b-13ea-4e98-bd20-71cf850b04b9</webElementGuid>
+      <value>number</value>
+      <webElementGuid>d72ee50e-2f1d-4fa5-9008-e70f2a6850e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userPass</value>
-      <webElementGuid>46f40df6-f722-41fd-a6be-80df1e1b5e22</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>userPass</value>
-      <webElementGuid>f188b431-8290-45cd-9852-e43b70be92ac</webElementGuid>
+      <value>txtMinAmount</value>
+      <webElementGuid>a7a58e64-aeba-42aa-a901-7b6fe0a391a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>b230a228-6cfc-4f94-8f65-f10c706d1571</webElementGuid>
+      <value>form-control addMatrix</value>
+      <webElementGuid>e3017c55-6a94-4973-87e1-2eac91549140</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>21ccbc69-295a-4f27-8e78-d9ad8dc35fe7</webElementGuid>
+      <value>Minimum Amount</value>
+      <webElementGuid>135422cc-1ab1-43a5-b721-74f1ddbbb09d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>value</name>
       <type>Main</type>
-      <value>required</value>
-      <webElementGuid>6aea3d88-af6b-4dff-8daf-58a76ef79cf7</webElementGuid>
+      <value>0</value>
+      <webElementGuid>e0deb2d7-51a9-4743-bb82-6202264ab623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userPass&quot;)</value>
-      <webElementGuid>bb3cb688-ecc6-44a2-93c4-fbb974500e7c</webElementGuid>
+      <value>id(&quot;txtMinAmount&quot;)</value>
+      <webElementGuid>6d751a25-c69f-4422-afbd-4d4bde68d67b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='userPass']</value>
-      <webElementGuid>0b644956-03e0-4a0f-ab96-30b4932cb0fb</webElementGuid>
+      <value>//input[@id='txtMinAmount']</value>
+      <webElementGuid>a5bcfc0f-3ced-44f2-870d-d6944c196ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/div[2]/div/input</value>
-      <webElementGuid>4a0c1e72-1799-4523-af80-f7b6d8f85ea4</webElementGuid>
+      <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div/div/input</value>
+      <webElementGuid>849e0bdf-d653-4b54-9ee6-b2bbff0c9310</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>de4a8cfd-4833-47c3-8be7-0e3bfc7e98d5</webElementGuid>
+      <value>//div/div[2]/div/div/div/input</value>
+      <webElementGuid>3cc6964e-a899-44c4-8dbe-1d5bf3aee9a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'userPass' and @name = 'userPass' and @placeholder = 'Password']</value>
-      <webElementGuid>50c2da75-4d0e-473b-92cb-b1e4689c920f</webElementGuid>
+      <value>//input[@type = 'number' and @id = 'txtMinAmount' and @placeholder = 'Minimum Amount']</value>
+      <webElementGuid>fa480fcf-3b7b-4724-8746-4f3b3e67ddd7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

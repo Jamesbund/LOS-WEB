@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://losrbitest.cardmri.com:8446/LOSWEB/login')
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web - Login/label_Username'))

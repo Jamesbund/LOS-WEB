@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Username</name>
+   <name>span_Loan Matrix</name>
    <tag></tag>
-   <elementGuidId>3637493c-337f-4e71-bc61-bed15a063461</elementGuidId>
+   <elementGuidId>5c6cab92-e604-44ff-a31b-dcfb6fe19aed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='sign-in-form']/div/div/label</value>
+         <value>//li[@id='access_loanMatrix']/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>label</value>
+         <value>a.dropdown-toggle.nav-link > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>d10a3cf8-e8b6-4a86-b7e8-2b9b6fbbf6d8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>userName</value>
-      <webElementGuid>9c745c97-66ac-4553-b52b-3802dc9bb484</webElementGuid>
+      <value>span</value>
+      <webElementGuid>f25848a6-ab14-4b73-9df8-a39bcb6f3017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>e21c4a66-564c-4bce-bbab-6cbbc95ea741</webElementGuid>
+      <value>Loan Matrix</value>
+      <webElementGuid>600a8a70-0733-40e7-92ca-62861eb9e867</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sign-in-form&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-label-group&quot;]/label[1]</value>
-      <webElementGuid>527cc2a1-86b1-45f6-bb81-cb0e63d3e073</webElementGuid>
+      <value>id(&quot;access_loanMatrix&quot;)/a[@class=&quot;dropdown-toggle nav-link&quot;]/span[1]</value>
+      <webElementGuid>94c4211a-57b9-447e-8ce9-79d5ffe42825</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/div/div/label</value>
-      <webElementGuid>b1d57fb1-022d-4f76-84a2-d853a838e85e</webElementGuid>
+      <value>//li[@id='access_loanMatrix']/a/span</value>
+      <webElementGuid>e84d2128-4102-4205-9f57-d2e505f1f47b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='LOAN ORIGINATION SYSTEM (LOS) Web'])[1]/following::label[1]</value>
-      <webElementGuid>d5305d26-0add-41e8-967c-5a41636db079</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
+      <webElementGuid>b91ccee9-4810-4873-8cb9-4fe2d52859a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::label[1]</value>
-      <webElementGuid>81840759-bd33-4d36-b2cc-e706b8076385</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Summary'])[1]/following::span[2]</value>
+      <webElementGuid>2d3d1a85-ab6e-4e5a-80f9-049018fafb70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::label[2]</value>
-      <webElementGuid>d34ecfc5-ffdb-486c-9d83-b4bf8cf4baf5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Matrix'])[1]/preceding::span[1]</value>
+      <webElementGuid>21ce67e6-c5e9-4e73-8e23-abd6bba25f39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Username']/parent::*</value>
-      <webElementGuid>4a614a3c-0f33-4a2f-aee8-24ddeb169c40</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Product Matrix'])[1]/preceding::span[2]</value>
+      <webElementGuid>55ead95e-5b77-4c6e-9b67-f51780aca566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Loan Matrix']/parent::*</value>
+      <webElementGuid>47d87575-1d0a-4927-bc3e-5f31deb8f630</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label</value>
-      <webElementGuid>eb723125-7a37-423b-85aa-94cd5f797e63</webElementGuid>
+      <value>//li[2]/a/span</value>
+      <webElementGuid>9089e93a-264f-4311-8cc6-49589e20cdd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Username' or . = 'Username')]</value>
-      <webElementGuid>fe0e1e33-5e28-4d33-b7e5-aa2b9db3b727</webElementGuid>
+      <value>//span[(text() = 'Loan Matrix' or . = 'Loan Matrix')]</value>
+      <webElementGuid>89fdbad7-58b7-415e-83b1-afdd836b9535</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

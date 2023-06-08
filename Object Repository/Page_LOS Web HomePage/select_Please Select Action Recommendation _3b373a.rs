@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>select_Please Select Action Recommendation _3b373a</name>
    <tag></tag>
-   <elementGuidId>def66385-48c3-4c82-90a8-d79cf53e2dab</elementGuidId>
+   <elementGuidId>9e9b719d-be99-4227-9444-500a2985f4ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//select[@id='cboAction']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#cboAction</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>5e72de55-08ff-489c-828c-bde00596b93e</webElementGuid>
+      <value>select</value>
+      <webElementGuid>f84a9105-8a6b-49f0-a0f2-63dd4ea198c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block login-btn</value>
-      <webElementGuid>b5837d63-b31a-495d-a46b-9981c7f07120</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>486c6dde-3a96-48af-9028-da997d506095</webElementGuid>
+      <value>form-control addMatrix</value>
+      <webElementGuid>03d375f6-8b0a-40dd-8bf5-7d31eddca4d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>05bfbb34-d645-4022-872e-05f0166faa11</webElementGuid>
+      <value>cboAction</value>
+      <webElementGuid>e037ce58-b0cd-404a-8253-30c4379103a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cboAction</value>
+      <webElementGuid>c2107370-78f0-4025-851b-5209ab2fa0c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login </value>
-      <webElementGuid>b87701d0-2cb3-451d-8944-4560f540ed0e</webElementGuid>
+      <value> Please Select Action Recommendation Approval </value>
+      <webElementGuid>4d153b22-bc02-4cfc-b121-8bb18eb4a46a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>0f37d566-2b16-428b-a657-71d678431751</webElementGuid>
+      <value>id(&quot;cboAction&quot;)</value>
+      <webElementGuid>61bda9f0-3659-4763-b246-fea04a424783</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>65fad9fd-1d04-4164-a04b-29a8c53c7cb9</webElementGuid>
+      <value>//select[@id='cboAction']</value>
+      <webElementGuid>c74827ec-bc1b-42c1-8388-44806b028a85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/button</value>
-      <webElementGuid>17bbc7e2-ab2f-42d3-875f-e79bf4a1c280</webElementGuid>
+      <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div[4]/div/select</value>
+      <webElementGuid>f219a585-4c0e-457b-b860-e26cf303c422</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>486c4c60-2044-4d95-bfc3-649e15daf71f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Amount'])[3]/following::select[2]</value>
+      <webElementGuid>f62b750b-d556-4de1-be6a-a5cff69fca6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>80283118-a20e-4232-af80-9915a15234ea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Amount'])[3]/following::select[2]</value>
+      <webElementGuid>418a832c-4332-4cb0-9f6e-c5a7f95606ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password ?'])[1]/preceding::button[1]</value>
-      <webElementGuid>1c27edc1-d636-44da-8ab1-9ab79d940521</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[3]/preceding::select[1]</value>
+      <webElementGuid>81f52710-4ed5-4e93-bbac-ed39f38c1ad3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnLogin', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>d5245641-04b5-4a7d-9d6f-38528f30d79d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>11532577-8552-4042-9dc2-0d2b6e7a5153</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::select[1]</value>
+      <webElementGuid>fd693f54-236b-49cf-b45f-5ca5c55fa049</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>5f692061-620c-47bc-9d5b-a5157ab7af55</webElementGuid>
+      <value>//div/div[4]/div/select</value>
+      <webElementGuid>d261b9f7-e155-473b-ab31-b919da08cde9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = 'Login ' or . = 'Login ')]</value>
-      <webElementGuid>e2f6565e-8525-4518-a75f-7b2d803ec452</webElementGuid>
+      <value>//select[@id = 'cboAction' and @name = 'cboAction' and (text() = ' Please Select Action Recommendation Approval ' or . = ' Please Select Action Recommendation Approval ')]</value>
+      <webElementGuid>d84bcfc3-4374-4d96-9ba4-2aeec071fc4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

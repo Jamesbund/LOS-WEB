@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Add New Loan Matrix</name>
    <tag></tag>
-   <elementGuidId>def66385-48c3-4c82-90a8-d79cf53e2dab</elementGuidId>
+   <elementGuidId>abb64c54-f37f-41d2-b2f8-d4970060df47</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//button[@id='btnAddMatrixModal']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#btnAddMatrixModal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5e72de55-08ff-489c-828c-bde00596b93e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-block login-btn</value>
-      <webElementGuid>b5837d63-b31a-495d-a46b-9981c7f07120</webElementGuid>
+      <webElementGuid>729c095d-9fd1-4c5b-b1ab-49987a2fda4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,87 +30,103 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>486c6dde-3a96-48af-9028-da997d506095</webElementGuid>
+      <webElementGuid>6c592c9a-1a54-4a8b-bd76-b4c59f4f6eb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>bcc77389-300e-4419-8908-c7bc4f836307</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>05bfbb34-d645-4022-872e-05f0166faa11</webElementGuid>
+      <value>btnAddMatrixModal</value>
+      <webElementGuid>58957811-1ac9-448f-abc0-b54857940935</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>cc21f2de-24f4-4b65-84c2-0a70c23f7f35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#NewLoanMatrix</value>
+      <webElementGuid>dbef78b5-8b2a-4e8a-9e22-fede1e59a8fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login </value>
-      <webElementGuid>b87701d0-2cb3-451d-8944-4560f540ed0e</webElementGuid>
+      <value> Add New Loan Matrix</value>
+      <webElementGuid>363f13fe-3299-45e1-8e0b-9769aab5cb1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>0f37d566-2b16-428b-a657-71d678431751</webElementGuid>
+      <value>id(&quot;btnAddMatrixModal&quot;)</value>
+      <webElementGuid>5fb4480c-9096-42d5-b3f9-08f6b0fbdba1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>65fad9fd-1d04-4164-a04b-29a8c53c7cb9</webElementGuid>
+      <value>//button[@id='btnAddMatrixModal']</value>
+      <webElementGuid>197c141d-16b2-4951-830e-b4ab12c52659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/button</value>
-      <webElementGuid>17bbc7e2-ab2f-42d3-875f-e79bf4a1c280</webElementGuid>
+      <value>//div[@id='content-wrapper']/div/div/button</value>
+      <webElementGuid>c35fdc61-d698-4f69-a0bc-9c7e8336e11b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>486c4c60-2044-4d95-bfc3-649e15daf71f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Range Management'])[1]/following::button[1]</value>
+      <webElementGuid>4bf8ee46-54a0-4f77-ac4b-516a37187f10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>80283118-a20e-4232-af80-9915a15234ea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::button[1]</value>
+      <webElementGuid>5cbb2fbf-94f7-4e7e-9376-90702a4ce936</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password ?'])[1]/preceding::button[1]</value>
-      <webElementGuid>1c27edc1-d636-44da-8ab1-9ab79d940521</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::button[1]</value>
+      <webElementGuid>f3565dfb-03f4-4c0e-b971-48a658056b70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnLogin', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>d5245641-04b5-4a7d-9d6f-38528f30d79d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>11532577-8552-4042-9dc2-0d2b6e7a5153</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Add New Loan Matrix']/parent::*</value>
+      <webElementGuid>9c5249d8-3f0f-4505-955f-d67d19842b80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,14 +134,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>5f692061-620c-47bc-9d5b-a5157ab7af55</webElementGuid>
+      <webElementGuid>40f76a96-eb84-44a7-9031-069583a73e6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = 'Login ' or . = 'Login ')]</value>
-      <webElementGuid>e2f6565e-8525-4518-a75f-7b2d803ec452</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btnAddMatrixModal' and (text() = ' Add New Loan Matrix' or . = ' Add New Loan Matrix')]</value>
+      <webElementGuid>fece524c-2642-461c-8190-67c2821bcb5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

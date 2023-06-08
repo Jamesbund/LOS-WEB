@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Close</name>
    <tag></tag>
-   <elementGuidId>def66385-48c3-4c82-90a8-d79cf53e2dab</elementGuidId>
+   <elementGuidId>72806629-74cb-41f5-943e-c53076ed9e29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>(//button[@type='button'])[37]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#NewLoanMatrix > div.modal-dialog > div.modal-content > div.modal-body > div.card-body > div.modal-footer > button.btn.btn-default</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5e72de55-08ff-489c-828c-bde00596b93e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-block login-btn</value>
-      <webElementGuid>b5837d63-b31a-495d-a46b-9981c7f07120</webElementGuid>
+      <webElementGuid>14623d1c-f6ae-4773-a5d9-5d016fc42cf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,102 +30,102 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>486c6dde-3a96-48af-9028-da997d506095</webElementGuid>
+      <webElementGuid>21e851a9-5b3e-4431-88a1-a5974bbe19b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>05bfbb34-d645-4022-872e-05f0166faa11</webElementGuid>
+      <value>btn btn-default</value>
+      <webElementGuid>653113e6-9cff-4b4c-8aef-3f010aba7ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>36604e86-4744-4695-871c-579e6f2f6be1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login </value>
-      <webElementGuid>b87701d0-2cb3-451d-8944-4560f540ed0e</webElementGuid>
+      <value>Close</value>
+      <webElementGuid>18925d78-64bb-41f2-84a5-deecbff30b7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>0f37d566-2b16-428b-a657-71d678431751</webElementGuid>
+      <value>id(&quot;NewLoanMatrix&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>e3d93190-3af5-4dd5-b232-a5314fad3a23</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>65fad9fd-1d04-4164-a04b-29a8c53c7cb9</webElementGuid>
+      <value>(//button[@type='button'])[37]</value>
+      <webElementGuid>898e2ab7-aa3f-4cfb-934b-186b4727d880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/button</value>
-      <webElementGuid>17bbc7e2-ab2f-42d3-875f-e79bf4a1c280</webElementGuid>
+      <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div[5]/button[2]</value>
+      <webElementGuid>b29daa49-ab92-4823-a936-809843856451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>486c4c60-2044-4d95-bfc3-649e15daf71f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[3]/following::button[1]</value>
+      <webElementGuid>4dead10e-7104-47f8-a0c6-fbdbd600582b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>80283118-a20e-4232-af80-9915a15234ea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Amount'])[3]/following::button[2]</value>
+      <webElementGuid>9a9551c1-a3aa-46a1-8c2e-68544af8ba22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password ?'])[1]/preceding::button[1]</value>
-      <webElementGuid>1c27edc1-d636-44da-8ab1-9ab79d940521</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Loan Product'])[1]/preceding::button[1]</value>
+      <webElementGuid>b846f8b9-3cca-4234-8ffb-a68cd9744d39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnLogin', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>d5245641-04b5-4a7d-9d6f-38528f30d79d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>11532577-8552-4042-9dc2-0d2b6e7a5153</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[7]/preceding::button[1]</value>
+      <webElementGuid>0ae1afdd-47e3-415b-ac67-f36d11a61f9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>5f692061-620c-47bc-9d5b-a5157ab7af55</webElementGuid>
+      <value>//div[5]/button[2]</value>
+      <webElementGuid>6ae73ef0-97d6-4883-ac1f-52ac76e5d66b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = 'Login ' or . = 'Login ')]</value>
-      <webElementGuid>e2f6565e-8525-4518-a75f-7b2d803ec452</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>9eb66c01-081f-48bb-9908-cc6c9d08d775</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

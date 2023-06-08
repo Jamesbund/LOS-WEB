@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_userPass</name>
+   <name>input_Minimum Amount_txtMaxAmount</name>
    <tag></tag>
-   <elementGuidId>e6cf4f6a-b9ae-4867-87e8-d0d7f5207d52</elementGuidId>
+   <elementGuidId>fe327214-e21f-4e96-b5ba-462bab8a053e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='userPass']</value>
+         <value>//input[@id='txtMaxAmount']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#userPass</value>
+         <value>#txtMaxAmount</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e5c177f4-8904-4908-b3fb-e19a2e4487d1</webElementGuid>
+      <webElementGuid>bada174b-7a17-401b-9a2e-357751e568d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>37a8a82b-13ea-4e98-bd20-71cf850b04b9</webElementGuid>
+      <value>number</value>
+      <webElementGuid>6e61738d-ab42-418b-95ca-3849e6208e9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userPass</value>
-      <webElementGuid>46f40df6-f722-41fd-a6be-80df1e1b5e22</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>userPass</value>
-      <webElementGuid>f188b431-8290-45cd-9852-e43b70be92ac</webElementGuid>
+      <value>txtMaxAmount</value>
+      <webElementGuid>c2ccab79-6aca-4fe0-b7e7-f40c2e9b8649</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>b230a228-6cfc-4f94-8f65-f10c706d1571</webElementGuid>
+      <value>form-control addMatrix</value>
+      <webElementGuid>bdc42054-557b-49b3-be61-e5e0cdfef100</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>21ccbc69-295a-4f27-8e78-d9ad8dc35fe7</webElementGuid>
+      <value>Maximum Amount</value>
+      <webElementGuid>6aa33ad5-ca1d-471e-b591-8e5cf7808ca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>value</name>
       <type>Main</type>
-      <value>required</value>
-      <webElementGuid>6aea3d88-af6b-4dff-8daf-58a76ef79cf7</webElementGuid>
+      <value>0</value>
+      <webElementGuid>77b2fa76-1ca2-43df-9672-90411178a953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userPass&quot;)</value>
-      <webElementGuid>bb3cb688-ecc6-44a2-93c4-fbb974500e7c</webElementGuid>
+      <value>id(&quot;txtMaxAmount&quot;)</value>
+      <webElementGuid>59d5de6e-ce2c-4d01-8e3d-97c8770154a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='userPass']</value>
-      <webElementGuid>0b644956-03e0-4a0f-ab96-30b4932cb0fb</webElementGuid>
+      <value>//input[@id='txtMaxAmount']</value>
+      <webElementGuid>13691391-9c8f-4466-974d-f7b1713a4b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/div[2]/div/input</value>
-      <webElementGuid>4a0c1e72-1799-4523-af80-f7b6d8f85ea4</webElementGuid>
+      <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div[2]/div/input</value>
+      <webElementGuid>c11b542b-f0bd-499f-99c2-01b78a365235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>de4a8cfd-4833-47c3-8be7-0e3bfc7e98d5</webElementGuid>
+      <value>//div/div[2]/div/div[2]/div/input</value>
+      <webElementGuid>f72040e9-a2ec-40ee-9c02-073673a8103f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'userPass' and @name = 'userPass' and @placeholder = 'Password']</value>
-      <webElementGuid>50c2da75-4d0e-473b-92cb-b1e4689c920f</webElementGuid>
+      <value>//input[@type = 'number' and @id = 'txtMaxAmount' and @placeholder = 'Maximum Amount']</value>
+      <webElementGuid>a8d3a3b8-7b1a-41b6-89a5-ae0a9713201b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
