@@ -4,4 +4,34 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://losrbitest.cardmri.com:8446/LOSWEB/login'</initValue>
+      <name>URL_RBI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'casuperales'</initValue>
+      <name>USERNAME_RBI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3bJnWsnfvzrLeexb3WEtWQ=='</initValue>
+      <name>PASSWORD_RBI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://lossmetest.cardmri.com:8445/LOSWEB/login'</initValue>
+      <name>URL_SME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eebrion'</initValue>
+      <name>USERNAME_SME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NFmJYP+sThSRdMjqd2IGIg=='</initValue>
+      <name>PASSWORD_SME</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

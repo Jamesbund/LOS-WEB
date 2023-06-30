@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID",
+      "brokenLocator": "//input[@id\u003d\u0027txtSearchCID\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230621_084502/LOS-WEB Full Cycle/20230621_084503/Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID_position.png"
+    }
+  ]
+}

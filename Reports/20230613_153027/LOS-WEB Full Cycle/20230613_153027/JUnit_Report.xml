@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LOS-WEB Full Cycle" time="106.444" tests="6" failures="0" errors="0">
+   <testsuite name="LOS-WEB Full Cycle" tests="6" failures="0" errors="0" time="106.444" skipped="0" timestamp="2023-06-13 15:30:30" hostname="a.miranda.local - cmit-amiranda" id="Test Suites/LOS-WEB Full Cycle">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230613_153027\\LOS-WEB Full Cycle\\20230613_153027"/>
+         <property name="logFiles" value="C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230613_153027\\LOS-WEB Full Cycle\\20230613_153027\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230613_153027\\LOS-WEB Full Cycle\\20230613_153027\\1686641483937.png"/>
+         <property name="hostName" value="a.miranda.local - cmit-amiranda"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="10.200.54.69"/>
+         <property name="sessionId" value="e525aa9a8d1eb102908c7d0f6ff9e346"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOS RBI/Login" time="14.874" classname="Test Cases/LOS RBI/Login" status="PASSED">
+         <system-out><![CDATA[2023-06-13 15:30:30 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Login: Test Cases/LOS RBI/Login
+
+2023-06-13 15:30:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-13 15:30:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-13 15:30:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-13 15:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-13 15:30:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-13 15:30:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-13 15:30:34 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://losrbitest.cardmri.com:8446/LOSWEB/login' successfully
+
+2023-06-13 15:30:35 - [MESSAGE][PASSED] - Navigate to 'https://losrbitest.cardmri.com:8446/LOSWEB/login' successfully
+
+2023-06-13 15:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web - Login/label_Username")): Object: 'Object Repository/Page_LOS Web - Login/label_Username' is clicked on
+
+2023-06-13 15:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web - Login/label_Username' is clicked on
+
+2023-06-13 15:30:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName"), USERNAME): Text 'vfvillaceran' is set on object 'Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName'
+
+2023-06-13 15:30:37 - [MESSAGE][PASSED] - Text 'vfvillaceran' is set on object 'Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName'
+
+2023-06-13 15:30:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_LOS Web - Login/input_Username_userPass"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_LOS Web - Login/input_Username_userPass'
+
+2023-06-13 15:30:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LOS Web - Login/input_Username_userPass'
+
+2023-06-13 15:30:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web - Login/button_Login")): Object: 'Object Repository/Page_LOS Web - Login/button_Login' is clicked on
+
+2023-06-13 15:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web - Login/button_Login' is clicked on
+
+2023-06-13 15:30:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:30:45 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Dashboard/CID and view ePN" time="25.85" classname="Test Cases/LOS RBI/Dashboard/CID and view ePN" status="PASSED">
+         <system-out><![CDATA[2023-06-13 15:30:45 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Dashboard/CID and view ePN: Test Cases/LOS RBI/Dashboard/CID and view ePN
+
+2023-06-13 15:30:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID"), "1030091995"): Text '1030091995' is set on object 'Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID'
+
+2023-06-13 15:30:48 - [MESSAGE][PASSED] - Text '1030091995' is set on object 'Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID'
+
+2023-06-13 15:30:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Search")): Object: 'Object Repository/Page_LOS Web HomePage/button_Search' is clicked on
+
+2023-06-13 15:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Search' is clicked on
+
+2023-06-13 15:30:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-13 15:30:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-13 15:30:52 - [TEST_STEP][PASSED] - scrollToPosition(0, 150): Browser is scrolled to position x = 0, y = 150
+
+2023-06-13 15:30:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 150
+
+2023-06-13 15:30:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-13 15:30:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-13 15:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467")): Object: 'Object Repository/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467' is clicked on
+
+2023-06-13 15:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467' is clicked on
+
+2023-06-13 15:30:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-13 15:31:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-13 15:31:06 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-06-13 15:31:06 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-06-13 15:31:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:31:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD" time="20.464" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD" status="PASSED">
+         <system-out><![CDATA[2023-06-13 15:31:24 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD: Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD
+
+2023-06-13 15:31:24 - [TEST_STEP][PASSED] - MinLa = new java.util.Random(): null
+
+2023-06-13 15:31:24 - [TEST_STEP][PASSED] - MinimumLA = MinLa.nextInt(9000) + 1000: null
+
+2023-06-13 15:31:24 - [TEST_STEP][PASSED] - MaxLa = new java.util.Random(): null
+
+2023-06-13 15:31:24 - [TEST_STEP][PASSED] - MaximumLA = MaxLa.nextInt(90000) + 10000: null
+
+2023-06-13 15:31:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-13 15:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-13 15:31:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-13 15:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-13 15:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix' is clicked on
+
+2023-06-13 15:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix' is clicked on
+
+2023-06-13 15:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LOS Web HomePage/input__txtMinAmount"), MinimumLA.toString()): Text '6349' is set on object 'Object Repository/Page_LOS Web HomePage/input__txtMinAmount'
+
+2023-06-13 15:31:28 - [MESSAGE][PASSED] - Text '6349' is set on object 'Object Repository/Page_LOS Web HomePage/input__txtMinAmount'
+
+2023-06-13 15:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount"), MaximumLA.toString()): Text '29032' is set on object 'Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount'
+
+2023-06-13 15:31:29 - [MESSAGE][PASSED] - Text '29032' is set on object 'Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount'
+
+2023-06-13 15:31:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818"), "1016", true): All options with value '1016' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818'  using regular expression
+
+2023-06-13 15:31:31 - [MESSAGE][PASSED] - All options with value '1016' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818'  using regular expression
+
+2023-06-13 15:31:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a'  using regular expression
+
+2023-06-13 15:31:32 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a'  using regular expression
+
+2023-06-13 15:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Save")): Object: 'Object Repository/Page_LOS Web HomePage/button_Save' is clicked on
+
+2023-06-13 15:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Save' is clicked on
+
+2023-06-13 15:31:33 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-13 15:31:33 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-13 15:31:33 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-13 15:31:33 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-13 15:31:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:31:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-13 15:31:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "Super"): Text 'Super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:31:39 - [MESSAGE][PASSED] - Text 'Super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:31:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:31:44 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT" time="12.185" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT" status="PASSED">
+         <system-out><![CDATA[2023-06-13 15:31:44 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT: Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT
+
+2023-06-13 15:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-13 15:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-13 15:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-13 15:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-13 15:31:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "super"): Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:31:48 - [MESSAGE][PASSED] - Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan")): Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan' is clicked on
+
+2023-06-13 15:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan' is clicked on
+
+2023-06-13 15:31:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Recommendation Approval"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Recommendation Approval'  using regular expression
+
+2023-06-13 15:31:51 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Recommendation Approval'  using regular expression
+
+2023-06-13 15:31:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Update")): Object: 'Object Repository/Page_LOS Web HomePage/button_Update' is clicked on
+
+2023-06-13 15:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Update' is clicked on
+
+2023-06-13 15:31:51 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-13 15:31:51 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-13 15:31:51 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-13 15:31:51 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-13 15:31:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:31:56 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE" time="17.181" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE" status="PASSED">
+         <system-out><![CDATA[2023-06-13 15:31:56 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE: Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE
+
+2023-06-13 15:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-13 15:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-13 15:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-13 15:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-13 15:31:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "Super"): Text 'Super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:32:00 - [MESSAGE][PASSED] - Text 'Super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:32:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix")): Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix' is clicked on
+
+2023-06-13 15:32:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='delMatrix_101,3588,90608,Super Admin,Approval']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-13 15:32:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix'. Try using Self-healing.
+
+2023-06-13 15:32:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix' was broken. Propose an alternative one: '//table[@id='datatable-keytable']/tbody/tr/td/button[2]'.
+
+2023-06-13 15:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix' is clicked on
+
+2023-06-13 15:32:02 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-13 15:32:02 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-13 15:32:02 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-13 15:32:02 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-13 15:32:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:32:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-13 15:32:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "super"): Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:32:09 - [MESSAGE][PASSED] - Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-13 15:32:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-13 15:32:14 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Logout" time="2.838" classname="Test Cases/LOS RBI/Logout" status="PASSED">
+         <system-out><![CDATA[2023-06-13 15:32:14 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Logout: Test Cases/LOS RBI/Logout
+
+2023-06-13 15:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Logout")): Object: 'Object Repository/Page_LOS Web HomePage/a_Logout' is clicked on
+
+2023-06-13 15:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Logout' is clicked on
+
+2023-06-13 15:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Logout_1")): Object: 'Object Repository/Page_LOS Web HomePage/a_Logout_1' is clicked on
+
+2023-06-13 15:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Logout_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-13 15:30:30 - [TEST_SUITE][FAILED] - LOS-WEB Full Cycle: Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at ADD.run(ADD:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686641427377.run(TempTestSuite1686641427377.groovy:36)
+Caused by: org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e525aa9a8d1eb102908c7d0f6ff9e346
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.accept(RemoteWebDriver.java:947)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringAlert.accept(EventFiringWebDriver.java:795)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-06-13 15:30:30 - [TEST_SUITE][FAILED] - LOS-WEB Full Cycle: Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at ADD.run(ADD:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686641427377.run(TempTestSuite1686641427377.groovy:36)
+Caused by: org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e525aa9a8d1eb102908c7d0f6ff9e346
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.accept(RemoteWebDriver.java:947)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringAlert.accept(EventFiringWebDriver.java:795)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

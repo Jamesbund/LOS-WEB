@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>729c095d-9fd1-4c5b-b1ab-49987a2fda4a</webElementGuid>
+      <webElementGuid>36393c1c-698e-42d7-9039-f8fd55e40da5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6c592c9a-1a54-4a8b-bd76-b4c59f4f6eb4</webElementGuid>
+      <webElementGuid>8e6591ff-c3bf-48ae-80e9-615524411cd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success</value>
-      <webElementGuid>bcc77389-300e-4419-8908-c7bc4f836307</webElementGuid>
+      <webElementGuid>fddcc540-7de0-430a-8b7b-6795f057f331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnAddMatrixModal</value>
-      <webElementGuid>58957811-1ac9-448f-abc0-b54857940935</webElementGuid>
+      <webElementGuid>845f7397-0dab-4548-8351-5af8452734c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>cc21f2de-24f4-4b65-84c2-0a70c23f7f35</webElementGuid>
+      <webElementGuid>1466b7f8-462c-447b-8736-34c1380e2598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#NewLoanMatrix</value>
-      <webElementGuid>dbef78b5-8b2a-4e8a-9e22-fede1e59a8fc</webElementGuid>
+      <webElementGuid>3db8703a-7cda-4ef5-97ac-e11eb1c4a135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Add New Loan Matrix</value>
-      <webElementGuid>363f13fe-3299-45e1-8e0b-9769aab5cb1d</webElementGuid>
+      <webElementGuid>046a7bf0-f550-4cb3-85c6-0ae27b01b511</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnAddMatrixModal&quot;)</value>
-      <webElementGuid>5fb4480c-9096-42d5-b3f9-08f6b0fbdba1</webElementGuid>
+      <webElementGuid>99579b55-47c7-4ba2-99f3-993051fa5cf7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnAddMatrixModal']</value>
-      <webElementGuid>197c141d-16b2-4951-830e-b4ab12c52659</webElementGuid>
+      <webElementGuid>0796da7d-7126-42c9-bb5a-9c354b5cfdd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div/div/button</value>
-      <webElementGuid>c35fdc61-d698-4f69-a0bc-9c7e8336e11b</webElementGuid>
+      <webElementGuid>44ba379c-9419-4361-ab58-bcff140501b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Range Management'])[1]/following::button[1]</value>
-      <webElementGuid>4bf8ee46-54a0-4f77-ac4b-516a37187f10</webElementGuid>
+      <webElementGuid>6c1d3458-0f56-4740-8499-c0654f106906</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::button[1]</value>
-      <webElementGuid>5cbb2fbf-94f7-4e7e-9376-90702a4ce936</webElementGuid>
+      <webElementGuid>a20cca38-bfd0-4f95-80fa-e5c6effabf03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::button[1]</value>
-      <webElementGuid>f3565dfb-03f4-4c0e-b971-48a658056b70</webElementGuid>
+      <webElementGuid>e3f7489d-41ae-435d-9cd6-436eaf44557b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add New Loan Matrix']/parent::*</value>
-      <webElementGuid>9c5249d8-3f0f-4505-955f-d67d19842b80</webElementGuid>
+      <webElementGuid>f6ab9574-5ec0-4503-b6e2-76f966d7a43f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>40f76a96-eb84-44a7-9031-069583a73e6d</webElementGuid>
+      <webElementGuid>506814f2-a82e-4b24-bd98-d562b7b5d06d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'btnAddMatrixModal' and (text() = ' Add New Loan Matrix' or . = ' Add New Loan Matrix')]</value>
-      <webElementGuid>fece524c-2642-461c-8190-67c2821bcb5e</webElementGuid>
+      <webElementGuid>1df27050-2830-4f0e-9f87-8e28ba7cd619</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

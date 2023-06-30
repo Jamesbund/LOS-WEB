@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Flat Rate</name>
+   <tag></tag>
+   <elementGuidId>2fbbdbef-d6dc-4473-a17b-738cc1acf9dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content-wrapper']/div/div/div/div[4]/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d8e7aaad-c308-415c-b459-955f47daea84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>txtFlatRate</value>
+      <webElementGuid>5fba75d5-5c91-40fb-93b0-eddf05c056d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flat Rate</value>
+      <webElementGuid>9e0688eb-7f42-42f9-b905-53ae374769a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[@id=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-xs-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-label-group&quot;]/label[1]</value>
+      <webElementGuid>e0b3813b-676b-4c70-a183-ff902677d5fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content-wrapper']/div/div/div/div[4]/div/div/div/label</value>
+      <webElementGuid>bd92f260-8e43-4bcc-a90a-47f4f8e2b576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code'])[1]/following::label[1]</value>
+      <webElementGuid>d24fb0b2-7094-4251-bfd4-1f2d0f28867a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Product'])[1]/following::label[2]</value>
+      <webElementGuid>ab3d24dc-fa0f-4c0c-bf57-cbcfe28d8e1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pro Rate on Half'])[1]/preceding::label[1]</value>
+      <webElementGuid>9ddc2270-50ad-4269-86d3-13baff5e02df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/label</value>
+      <webElementGuid>ef779bee-e7a9-4836-a5eb-46f9654b4638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Flat Rate' or . = 'Flat Rate')]</value>
+      <webElementGuid>659805aa-c433-4caa-a639-5aed2d2b7a64</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

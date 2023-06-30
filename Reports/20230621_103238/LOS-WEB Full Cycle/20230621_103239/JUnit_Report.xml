@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LOS-WEB Full Cycle" time="144.377" tests="8" failures="1" errors="0">
+   <testsuite name="LOS-WEB Full Cycle" tests="8" failures="1" errors="0" time="144.377" skipped="0" timestamp="2023-06-21 10:32:42" hostname="a.miranda.local - cmit-amiranda" id="Test Suites/LOS-WEB Full Cycle">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239"/>
+         <property name="logFiles" value="C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\1687314858416.png, C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\1687314858587.png, C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\1687314892055.png, C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\1687314896075.png, C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\1687314903305.png"/>
+         <property name="hostName" value="a.miranda.local - cmit-amiranda"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="10.200.54.69"/>
+         <property name="sessionId" value="3284411c2cf14c5d2dced7ac532d2631"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOS RBI/Login" time="14.067" classname="Test Cases/LOS RBI/Login" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:32:42 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Login: Test Cases/LOS RBI/Login
+
+2023-06-21 10:32:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-21 10:32:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-21 10:32:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-21 10:32:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-21 10:32:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-21 10:32:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-21 10:32:45 - [TEST_STEP][PASSED] - navigateToUrl(URL_RBI): Navigate to 'https://losrbitest.cardmri.com:8446/LOSWEB/login' successfully
+
+2023-06-21 10:32:46 - [MESSAGE][PASSED] - Navigate to 'https://losrbitest.cardmri.com:8446/LOSWEB/login' successfully
+
+2023-06-21 10:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web - Login/label_Username")): Object: 'Object Repository/Page_LOS Web - Login/label_Username' is clicked on
+
+2023-06-21 10:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web - Login/label_Username' is clicked on
+
+2023-06-21 10:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName"), USERNAME_RBI): Text 'casuperales' is set on object 'Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName'
+
+2023-06-21 10:32:48 - [MESSAGE][PASSED] - Text 'casuperales' is set on object 'Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName'
+
+2023-06-21 10:32:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_LOS Web - Login/input_Username_userPass"), PASSWORD_RBI): Text ****** has been set on object 'Object Repository/Page_LOS Web - Login/input_Username_userPass'
+
+2023-06-21 10:32:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_LOS Web - Login/input_Username_userPass'
+
+2023-06-21 10:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web - Login/button_Login")): Object: 'Object Repository/Page_LOS Web - Login/button_Login' is clicked on
+
+2023-06-21 10:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web - Login/button_Login' is clicked on
+
+2023-06-21 10:32:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-21 10:32:56 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Dashboard/CID and view ePN" time="25.566" classname="Test Cases/LOS RBI/Dashboard/CID and view ePN" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:32:56 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Dashboard/CID and view ePN: Test Cases/LOS RBI/Dashboard/CID and view ePN
+
+2023-06-21 10:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID"), "1030091995"): Text '1030091995' is set on object 'Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID'
+
+2023-06-21 10:32:58 - [MESSAGE][PASSED] - Text '1030091995' is set on object 'Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID'
+
+2023-06-21 10:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Search")): Object: 'Object Repository/Page_LOS Web HomePage/button_Search' is clicked on
+
+2023-06-21 10:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Search' is clicked on
+
+2023-06-21 10:32:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-21 10:33:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-21 10:33:02 - [TEST_STEP][PASSED] - scrollToPosition(0, 150): Browser is scrolled to position x = 0, y = 150
+
+2023-06-21 10:33:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 150
+
+2023-06-21 10:33:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-21 10:33:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-21 10:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Dashboard/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467")): Object: 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Dashboard/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467' is clicked on
+
+2023-06-21 10:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Dashboard/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467' is clicked on
+
+2023-06-21 10:33:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-21 10:33:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-21 10:33:16 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-06-21 10:33:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-06-21 10:33:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-21 10:33:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-21 10:33:21 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2023-06-21 10:33:21 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2023-06-21 10:33:21 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-06-21 10:33:21 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD" time="14.162" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:33:21 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD: Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD
+
+2023-06-21 10:33:22 - [TEST_STEP][PASSED] - MinLa = new java.util.Random(): null
+
+2023-06-21 10:33:22 - [TEST_STEP][PASSED] - MinimumLA = MinLa.nextInt(9000) + 1000: null
+
+2023-06-21 10:33:22 - [TEST_STEP][PASSED] - MaxLa = new java.util.Random(): null
+
+2023-06-21 10:33:22 - [TEST_STEP][PASSED] - MaximumLA = MaxLa.nextInt(90000) + 10000: null
+
+2023-06-21 10:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-21 10:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-21 10:33:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-21 10:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-21 10:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix' is clicked on
+
+2023-06-21 10:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix' is clicked on
+
+2023-06-21 10:33:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_LOS Web HomePage/input__txtMinAmount"), MinimumLA.toString()): Text '3601' is set on object 'Object Repository/Page_LOS Web HomePage/input__txtMinAmount'
+
+2023-06-21 10:33:26 - [MESSAGE][PASSED] - Text '3601' is set on object 'Object Repository/Page_LOS Web HomePage/input__txtMinAmount'
+
+2023-06-21 10:33:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount"), MaximumLA.toString()): Text '30055' is set on object 'Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount'
+
+2023-06-21 10:33:28 - [MESSAGE][PASSED] - Text '30055' is set on object 'Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount'
+
+2023-06-21 10:33:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818"), "1016", true): All options with value '1016' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818'  using regular expression
+
+2023-06-21 10:33:30 - [MESSAGE][PASSED] - All options with value '1016' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818'  using regular expression
+
+2023-06-21 10:33:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a'  using regular expression
+
+2023-06-21 10:33:32 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a'  using regular expression
+
+2023-06-21 10:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Save")): Object: 'Object Repository/Page_LOS Web HomePage/button_Save' is clicked on
+
+2023-06-21 10:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Save' is clicked on
+
+2023-06-21 10:33:32 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:33:32 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:33:32 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:33:33 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:33:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-21 10:33:36 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT" time="9.012" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:33:36 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT: Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT
+
+2023-06-21 10:33:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "super"): Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-21 10:33:38 - [MESSAGE][PASSED] - Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-21 10:33:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan")): Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan' is clicked on
+
+2023-06-21 10:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan' is clicked on
+
+2023-06-21 10:33:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Recommendation Approval"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Recommendation Approval'  using regular expression
+
+2023-06-21 10:33:41 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Recommendation Approval'  using regular expression
+
+2023-06-21 10:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Update")): Object: 'Object Repository/Page_LOS Web HomePage/button_Update' is clicked on
+
+2023-06-21 10:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Update' is clicked on
+
+2023-06-21 10:33:42 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:33:42 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:33:42 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:33:42 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:33:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-21 10:33:45 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE" time="13.437" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:33:45 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE: Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE
+
+2023-06-21 10:33:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "Super"): Text 'Super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-21 10:33:46 - [MESSAGE][PASSED] - Text 'Super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-21 10:33:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix")): Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix' is clicked on
+
+2023-06-21 10:33:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='delMatrix_101,3588,90608,Super Admin,Approval']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-21 10:33:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix'. Try using Self-healing.
+
+2023-06-21 10:33:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix' was broken. Propose an alternative one: '//table[@id='datatable-keytable']/tbody/tr/td/button[2]'.
+
+2023-06-21 10:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix' is clicked on
+
+2023-06-21 10:33:49 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:33:49 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:33:49 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:33:49 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:33:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-21 10:33:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-21 10:33:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_search"), "super"): Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-21 10:33:53 - [MESSAGE][PASSED] - Text 'super' is set on object 'Object Repository/Page_LOS Web HomePage/input_search'
+
+2023-06-21 10:33:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-21 10:33:58 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Loan Matrix/Loan Amount/ALREADY EXISTS" time="14.555" classname="Test Cases/LOS RBI/Loan Matrix/Loan Amount/ALREADY EXISTS" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:33:58 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Loan Matrix/Loan Amount/ALREADY EXISTS: Test Cases/LOS RBI/Loan Matrix/Loan Amount/ALREADY EXISTS
+
+2023-06-21 10:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-21 10:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Loan Matrix' is clicked on
+
+2023-06-21 10:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-21 10:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix' is clicked on
+
+2023-06-21 10:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix")): Object: 'Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix' is clicked on
+
+2023-06-21 10:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix' is clicked on
+
+2023-06-21 10:34:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input__txtMinAmount"), "5000"): Text '5000' is set on object 'Object Repository/Page_LOS Web HomePage/input__txtMinAmount'
+
+2023-06-21 10:34:02 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Page_LOS Web HomePage/input__txtMinAmount'
+
+2023-06-21 10:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount"), "100000"): Text '100000' is set on object 'Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount'
+
+2023-06-21 10:34:03 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount'
+
+2023-06-21 10:34:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818"), "11052", true): All options with value '11052' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818'  using regular expression
+
+2023-06-21 10:34:05 - [MESSAGE][PASSED] - All options with value '11052' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818'  using regular expression
+
+2023-06-21 10:34:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a'  using regular expression
+
+2023-06-21 10:34:07 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a'  using regular expression
+
+2023-06-21 10:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/button_Save")): Object: 'Object Repository/Page_LOS Web HomePage/button_Save' is clicked on
+
+2023-06-21 10:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/button_Save' is clicked on
+
+2023-06-21 10:34:07 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:34:07 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:34:07 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2023-06-21 10:34:08 - [MESSAGE][PASSED] - Alert accepted
+
+2023-06-21 10:34:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-21 10:34:13 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF" time="7.231" classname="Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3284411c2cf14c5d2dced7ac532d2631
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-06-21 10:34:56 - [TEST_CASE][FAILED] - Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF: Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3284411c2cf14c5d2dced7ac532d2631
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-06-21 10:34:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Reports")): Object: 'Object Repository/Page_LOS Web HomePage/span_Reports' is clicked on
+
+2023-06-21 10:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Reports' is clicked on
+
+2023-06-21 10:34:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/span_Audit Trail Report")): Object: 'Object Repository/Page_LOS Web HomePage/span_Audit Trail Report' is clicked on
+
+2023-06-21 10:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/span_Audit Trail Report' is clicked on
+
+2023-06-21 10:34:58 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2023-06-21 10:34:58 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(yyyy-MM-dd): null
+
+2023-06-21 10:34:58 - [TEST_STEP][PASSED] - currentDate = dateFormat.format(today): null
+
+2023-06-21 10:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input__startDate1"), currentDate): Text '2023-06-21' is set on object 'Object Repository/Page_LOS Web HomePage/input__startDate1'
+
+2023-06-21 10:35:00 - [MESSAGE][PASSED] - Text '2023-06-21' is set on object 'Object Repository/Page_LOS Web HomePage/input__startDate1'
+
+2023-06-21 10:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_LOS Web HomePage/input__endDate1"), currentDate): Text '2023-06-21' is set on object 'Object Repository/Page_LOS Web HomePage/input__endDate1'
+
+2023-06-21 10:35:02 - [MESSAGE][PASSED] - Text '2023-06-21' is set on object 'Object Repository/Page_LOS Web HomePage/input__endDate1'
+
+2023-06-21 10:35:02 - [TEST_STEP][FAILED] - click(findTestObject("SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report")): Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3284411c2cf14c5d2dced7ac532d2631
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1686799216686.run(Script1686799216686.groovy:49)
+	... 16 more
+)
+
+2023-06-21 10:35:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3284411c2cf14c5d2dced7ac532d2631
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1686799216686.run(Script1686799216686.groovy:49)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\mri-user\\git\\LOS-WEB\\Reports\\20230621_103238\\LOS-WEB Full Cycle\\20230621_103239\\1687314903305.png]]]]></system-out>
+         <system-err><![CDATA[2023-06-21 10:34:56 - [TEST_CASE][FAILED] - Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF: Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CMIT-AMIRANDA', ip: '10.200.54.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\mri-user\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54847}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3284411c2cf14c5d2dced7ac532d2631
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOS RBI/Logout" time="2.97" classname="Test Cases/LOS RBI/Logout" status="PASSED">
+         <system-out><![CDATA[2023-06-21 10:35:03 - [TEST_CASE][PASSED] - Test Cases/LOS RBI/Logout: Test Cases/LOS RBI/Logout
+
+2023-06-21 10:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Logout")): Object: 'Object Repository/Page_LOS Web HomePage/a_Logout' is clicked on
+
+2023-06-21 10:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Logout' is clicked on
+
+2023-06-21 10:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_LOS Web HomePage/a_Logout_1")): Object: 'Object Repository/Page_LOS Web HomePage/a_Logout_1' is clicked on
+
+2023-06-21 10:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LOS Web HomePage/a_Logout_1' is clicked on
+
+2023-06-21 10:35:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-21 10:35:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-21 10:32:42 - [TEST_SUITE][FAILED] - LOS-WEB Full Cycle: Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$9.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-06-21 10:32:42 - [TEST_SUITE][FAILED] - LOS-WEB Full Cycle: Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$9.call(Unknown Source)
+	at ATR Generate in PDF.run(ATR Generate in PDF:59)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687314759607.run(TempTestSuite1687314759607.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

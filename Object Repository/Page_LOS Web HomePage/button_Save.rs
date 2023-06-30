@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ffacfc4f-5113-4791-b251-37b48526b0e3</webElementGuid>
+      <webElementGuid>e339cdef-640e-49f7-9fcf-9c59b9ee4a3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9de419f6-3e8b-4f87-994c-b821f3ff56a5</webElementGuid>
+      <webElementGuid>25801432-21e5-43b6-82d7-2b0d832f6db9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>aa2689af-4cd8-437a-848d-db46de8ca090</webElementGuid>
+      <webElementGuid>d17db3d7-e945-4d0d-928a-88090a93aa53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnSaveLoanMatrix</value>
-      <webElementGuid>1e69f4d8-f97b-4e45-9da2-85fb516ea20e</webElementGuid>
+      <webElementGuid>0b7be2f6-7ac5-4919-8cc9-70e6a900ef2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>21e78bd9-3632-4473-90e2-2a07c841e8ff</webElementGuid>
+      <webElementGuid>eac8669b-092d-476c-9c78-5eca3ba3f2da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnSaveLoanMatrix&quot;)</value>
-      <webElementGuid>397c2824-2211-4aa6-97da-8ba0692ba8d7</webElementGuid>
+      <webElementGuid>05ba9b85-6cf0-40fb-a1a7-28d248aad606</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='btnSaveLoanMatrix']</value>
-      <webElementGuid>a6887d33-45e4-4a08-bfd9-9c37b11c937f</webElementGuid>
+      <webElementGuid>5603a07f-efdc-4864-8c71-0b9109854ffe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div[5]/button</value>
-      <webElementGuid>5f9df83a-77d8-413d-af2a-436e9c87a8b5</webElementGuid>
+      <webElementGuid>492e746b-cedd-4cc0-922c-5364647731b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Amount'])[3]/following::button[1]</value>
-      <webElementGuid>82790aed-db3e-419e-9f30-b0625ba686dd</webElementGuid>
+      <webElementGuid>04dcfcde-2a6e-46d2-8fb5-c3069fb8057b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Amount'])[3]/following::button[1]</value>
-      <webElementGuid>ecdf5359-5af1-45e6-a540-8796180b4360</webElementGuid>
+      <webElementGuid>cfde1c53-2b52-4ea8-b68f-6a2e700b19c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::button[1]</value>
-      <webElementGuid>2063d011-f650-4654-887e-85d0f916e180</webElementGuid>
+      <webElementGuid>2c79b792-c024-435c-8c22-b0b6511c5a05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Loan Product'])[1]/preceding::button[2]</value>
-      <webElementGuid>acceb74f-5df6-4d71-8064-8e60598e8dd3</webElementGuid>
+      <webElementGuid>0dc6c3fb-4121-4557-ad67-475607441491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/button</value>
-      <webElementGuid>8d5feff7-98a8-487c-9c04-f844ad731fc5</webElementGuid>
+      <webElementGuid>46da9fce-790c-4c47-baca-1c57ce4d7dd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'btnSaveLoanMatrix' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>78bd84ae-e677-498b-9c4a-d09e9eefca1e</webElementGuid>
+      <webElementGuid>47b3f65d-64d8-48a7-a6b2-ae46f31352fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

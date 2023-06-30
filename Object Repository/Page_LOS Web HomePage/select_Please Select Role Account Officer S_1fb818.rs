@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>1acbdf69-076d-4da0-9401-457c4b770edc</webElementGuid>
+      <webElementGuid>09eed795-4a95-46aa-84f4-c17a9c977562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control addMatrix</value>
-      <webElementGuid>3387b11c-3e96-42b9-9c2c-f15e0e2bd248</webElementGuid>
+      <webElementGuid>2024a401-0ffe-4a88-b07c-e99e29e2dad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cboRole</value>
-      <webElementGuid>4d4397df-dfb9-4c93-ac0c-d24dca150caf</webElementGuid>
+      <webElementGuid>ffd81abb-b6c6-4ea5-b7a2-e341a07608dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>name</name>
       <type>Main</type>
       <value>cboRole</value>
-      <webElementGuid>ab3e655a-9d1d-4e8d-b70a-f10e8ba1891e</webElementGuid>
+      <webElementGuid>c3acef57-9d73-4771-8047-9b787b9e5ea7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 </value>
-      <webElementGuid>4c77caf0-f038-46c4-a08d-1d20bb5f34eb</webElementGuid>
+      <value> Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 QA Test </value>
+      <webElementGuid>4c4756e8-d090-4b26-a890-f711c5f414d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cboRole&quot;)</value>
-      <webElementGuid>9b8486e3-810d-46fb-98b8-20ea5d871161</webElementGuid>
+      <webElementGuid>337afa90-3825-41a2-bcdd-a7691d484383</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='cboRole']</value>
-      <webElementGuid>f6dfc88c-e697-4afd-9d38-e73124ae12b7</webElementGuid>
+      <webElementGuid>460b1bff-16ba-4f5c-a69a-798c55be8b79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div[3]/div/select</value>
-      <webElementGuid>fd33d7b1-5478-48c3-a015-cde2e73603c6</webElementGuid>
+      <webElementGuid>3236a03c-9647-42b7-a6b9-9fd2009c505c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Amount'])[3]/following::select[1]</value>
-      <webElementGuid>02f12662-c1f0-4b39-b5d1-5f6178bc9afe</webElementGuid>
+      <webElementGuid>5795c532-fdc3-4d4d-b6a3-360101acfaf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Amount'])[3]/following::select[1]</value>
-      <webElementGuid>b057b36d-0458-4ea7-afab-49181339ac43</webElementGuid>
+      <webElementGuid>5b3c096c-ab60-4c61-bbc5-3e1a27f9ae87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[3]/preceding::select[2]</value>
-      <webElementGuid>6b3e2cb6-18e8-4ca0-b513-7f4beb2d21ce</webElementGuid>
+      <webElementGuid>0faaf807-7713-4eb3-8737-d3c84f75b404</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::select[2]</value>
-      <webElementGuid>f9c2bb76-49d2-490b-ba8a-d0460e223f64</webElementGuid>
+      <webElementGuid>9aa74130-97f8-4c42-874f-df80aba20362</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]/div/select</value>
-      <webElementGuid>09e144cc-8ef3-4d17-97bd-d7e3ce80d071</webElementGuid>
+      <webElementGuid>7f4f9a85-974b-45e9-aad2-0af0d435765e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cboRole' and @name = 'cboRole' and (text() = ' Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 QA Test ' or . = ' Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 QA Test ')]</value>
+      <webElementGuid>fecb18d9-af77-4c5c-a445-bcc4512cf925</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +134,70 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'cboRole' and @name = 'cboRole' and (text() = ' Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 ' or . = ' Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 ')]</value>
-      <webElementGuid>a82abddd-3a4e-4652-bf2c-448ced9b461c</webElementGuid>
+      <webElementGuid>c5674cb8-0ab0-4cc0-b9d8-d590589b53a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='cboUpdateRole']</value>
+      <webElementGuid>38aae9e7-2f8c-4c95-94bf-378b0743f54d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='LoanMatrix']/div/div/div[2]/div/form/div[3]/div/select</value>
+      <webElementGuid>550032ba-eaed-413f-9b07-4743534fde23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Amount'])[2]/following::select[1]</value>
+      <webElementGuid>4eea2648-c646-404d-8733-14935e28e2a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Amount'])[2]/following::select[1]</value>
+      <webElementGuid>0423a99a-37b3-4769-abc2-d0777bb767ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update'])[2]/preceding::select[2]</value>
+      <webElementGuid>cbbe239c-2dc8-4406-b740-ef6146dab545</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/preceding::select[2]</value>
+      <webElementGuid>fb7e1030-89e9-4dc8-9340-2dac06c59935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/select</value>
+      <webElementGuid>b797704f-b2c4-4de3-bf0e-4a3171662475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'cboUpdateRole' and @name = 'cboUpdateRole' and (text() = ' Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 ' or . = ' Please Select Role Account Officer Sr. Account Officer Unit Manager Area Manager Senior Unit Manager Regional Director Senior Area Manager Senior Regional Director Assistant Vice President Vice President Executive Vice President CEO Committee BOD Super Admin Insti Admin Teller Security Admin President App Admin Auditor CSR (TEST) shar dev test dev test2 ')]</value>
+      <webElementGuid>e03e5582-c336-40c9-a860-35dbd80c1fd9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

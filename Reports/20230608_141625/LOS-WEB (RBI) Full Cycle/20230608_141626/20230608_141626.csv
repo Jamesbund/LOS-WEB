@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LOS-WEB (RBI) Full Cycle,Chrome 114.0.0.0,,,2023-06-08 14:16:29,2023-06-08 14:17:01,31.937s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 114.0.0.0,,,2023-06-08 14:16:29,2023-06-08 14:16:42,12.970s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-08 14:16:29,2023-06-08 14:16:32,2.697s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-08 14:16:32,2023-06-08 14:16:32,0.178s,PASSED
+"navigateToUrl(""https://losrbitest.cardmri.com:8446/LOSWEB/login"")",Chrome 114.0.0.0,,,2023-06-08 14:16:32,2023-06-08 14:16:32,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web - Login/label_Username""))",Chrome 114.0.0.0,,,2023-06-08 14:16:32,2023-06-08 14:16:33,0.623s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName""), ""vfvillaceran"")",Chrome 114.0.0.0,,,2023-06-08 14:16:33,2023-06-08 14:16:34,0.920s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_LOS Web - Login/input_Username_userPass""), ""n8hQ3tKcmLG0jssBracaYQ=="")",Chrome 114.0.0.0,,,2023-06-08 14:16:34,2023-06-08 14:16:35,0.640s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web - Login/button_Login""))",Chrome 114.0.0.0,,,2023-06-08 14:16:35,2023-06-08 14:16:37,2.206s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-06-08 14:16:37,2023-06-08 14:16:42,5.059s,PASSED
+,,,,,,,
+Test Cases/Dashboard/CID and view ePN,Chrome 114.0.0.0,,,2023-06-08 14:16:42,2023-06-08 14:16:58,16.376s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID""), ""1030091995"")",Chrome 114.0.0.0,,,2023-06-08 14:16:42,2023-06-08 14:16:44,1.130s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Search""))",Chrome 114.0.0.0,,,2023-06-08 14:16:44,2023-06-08 14:16:45,0.982s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-08 14:16:45,2023-06-08 14:16:48,3.011s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467""))",Chrome 114.0.0.0,,,2023-06-08 14:16:48,2023-06-08 14:16:48,0.523s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-06-08 14:16:48,2023-06-08 14:16:53,5.018s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-06-08 14:16:53,2023-06-08 14:16:53,0.074s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-06-08 14:16:53,2023-06-08 14:16:58,5.022s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 114.0.0.0,,,2023-06-08 14:16:58,2023-06-08 14:17:01,2.330s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/a_Logout""))",Chrome 114.0.0.0,,,2023-06-08 14:16:59,2023-06-08 14:16:59,0.499s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/a_Logout_1""))",Chrome 114.0.0.0,,,2023-06-08 14:16:59,2023-06-08 14:17:01,1.270s,PASSED

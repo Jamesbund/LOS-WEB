@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LOS-WEB Full Cycle,Chrome 114.0.0.0,,,2023-06-21 16:57:47,2023-06-21 16:59:45,1m - 58.047s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Login,Chrome 114.0.0.0,,,2023-06-21 16:57:47,2023-06-21 16:58:04,17.393s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-21 16:57:47,2023-06-21 16:57:50,2.944s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-21 16:57:50,2023-06-21 16:57:50,0.191s,PASSED
+navigateToUrl(URL_RBI),Chrome 114.0.0.0,,,2023-06-21 16:57:50,2023-06-21 16:57:52,1.025s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web - Login/label_Username""))",Chrome 114.0.0.0,,,2023-06-21 16:57:52,2023-06-21 16:57:52,0.724s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName""), USERNAME_RBI)",Chrome 114.0.0.0,,,2023-06-21 16:57:52,2023-06-21 16:57:53,0.920s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_LOS Web - Login/input_Username_userPass""), PASSWORD_RBI)",Chrome 114.0.0.0,,,2023-06-21 16:57:53,2023-06-21 16:57:55,1.836s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web - Login/button_Login""))",Chrome 114.0.0.0,,,2023-06-21 16:57:55,2023-06-21 16:57:59,4.305s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-06-21 16:57:59,2023-06-21 16:58:04,5.018s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Dashboard/CID and view ePN,Chrome 114.0.0.0,,,2023-06-21 16:58:04,2023-06-21 16:58:38,33.982s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID""), ""1030091995"")",Chrome 114.0.0.0,,,2023-06-21 16:58:05,2023-06-21 16:58:10,5.404s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Search""))",Chrome 114.0.0.0,,,2023-06-21 16:58:10,2023-06-21 16:58:13,3.019s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-21 16:58:13,2023-06-21 16:58:16,3.004s,PASSED
+"scrollToPosition(0, 150)",Chrome 114.0.0.0,,,2023-06-21 16:58:16,2023-06-21 16:58:16,0.043s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-21 16:58:16,2023-06-21 16:58:19,3.001s,PASSED
+"click(findTestObject(""Object Repository/SpyWeb_Elements/Page_LOS Web HomePage/Dashboard/Page_LOS Web HomePage/a_64e443173f8090c620230605085556467""))",Chrome 114.0.0.0,,,2023-06-21 16:58:19,2023-06-21 16:58:23,4.057s,PASSED
+delay(10),Chrome 114.0.0.0,,,2023-06-21 16:58:23,2023-06-21 16:58:33,10.016s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-06-21 16:58:33,2023-06-21 16:58:33,0.070s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-06-21 16:58:33,2023-06-21 16:58:38,5.012s,PASSED
+closeWindowIndex(1),Chrome 114.0.0.0,,,2023-06-21 16:58:38,2023-06-21 16:58:38,0.114s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-06-21 16:58:38,2023-06-21 16:58:38,0.022s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD,Chrome 114.0.0.0,,,2023-06-21 16:58:38,2023-06-21 16:58:52,13.377s,PASSED
+MinLa = new java.util.Random(),Chrome 114.0.0.0,,,2023-06-21 16:58:39,2023-06-21 16:58:39,0.024s,PASSED
+MinimumLA = MinLa.nextInt(9000) + 1000,Chrome 114.0.0.0,,,2023-06-21 16:58:39,2023-06-21 16:58:39,0.003s,PASSED
+MaxLa = new java.util.Random(),Chrome 114.0.0.0,,,2023-06-21 16:58:39,2023-06-21 16:58:39,0.001s,PASSED
+MaximumLA = MaxLa.nextInt(90000) + 10000,Chrome 114.0.0.0,,,2023-06-21 16:58:39,2023-06-21 16:58:39,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/a_Loan Matrix""))",Chrome 114.0.0.0,,,2023-06-21 16:58:39,2023-06-21 16:58:40,0.523s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/span_Loan Amount Matrix""))",Chrome 114.0.0.0,,,2023-06-21 16:58:40,2023-06-21 16:58:41,1.598s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Add New Loan Matrix""))",Chrome 114.0.0.0,,,2023-06-21 16:58:41,2023-06-21 16:58:42,0.706s,PASSED
+"setText(findTestObject(""Page_LOS Web HomePage/input__txtMinAmount""), MinimumLA.toString())",Chrome 114.0.0.0,,,2023-06-21 16:58:42,2023-06-21 16:58:43,1.114s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input_Minimum Amount_txtMaxAmount""), MaximumLA.toString())",Chrome 114.0.0.0,,,2023-06-21 16:58:43,2023-06-21 16:58:44,0.848s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_LOS Web HomePage/select_Please Select Role Account Officer S_1fb818""), ""1016"", true)",Chrome 114.0.0.0,,,2023-06-21 16:58:44,2023-06-21 16:58:46,2.249s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_LOS Web HomePage/select_Please Select Action Recommendation _3b373a""), ""1"", true)",Chrome 114.0.0.0,,,2023-06-21 16:58:46,2023-06-21 16:58:48,1.464s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Save""))",Chrome 114.0.0.0,,,2023-06-21 16:58:48,2023-06-21 16:58:49,0.951s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:58:49,2023-06-21 16:58:49,0.049s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:58:49,2023-06-21 16:58:49,0.086s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-21 16:58:49,2023-06-21 16:58:52,3.018s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT,Chrome 114.0.0.0,,,2023-06-21 16:58:52,2023-06-21 16:59:00,7.957s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input_search""), ""super"")",Chrome 114.0.0.0,,,2023-06-21 16:58:52,2023-06-21 16:58:54,1.096s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Description_btnUpdateLoan""))",Chrome 114.0.0.0,,,2023-06-21 16:58:54,2023-06-21 16:58:54,0.528s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_LOS Web HomePage/select_Recommendation Approval""), ""2"", true)",Chrome 114.0.0.0,,,2023-06-21 16:58:54,2023-06-21 16:58:56,1.832s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Update""))",Chrome 114.0.0.0,,,2023-06-21 16:58:56,2023-06-21 16:58:57,0.641s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:58:57,2023-06-21 16:58:57,0.027s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:58:57,2023-06-21 16:58:57,0.050s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-21 16:58:57,2023-06-21 16:59:00,3.014s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE,Chrome 114.0.0.0,,,2023-06-21 16:59:00,2023-06-21 16:59:13,13.252s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input_search""), ""Super"")",Chrome 114.0.0.0,,,2023-06-21 16:59:00,2023-06-21 16:59:02,1.140s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix""))",Chrome 114.0.0.0,,,2023-06-21 16:59:02,2023-06-21 16:59:04,2.059s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:59:04,2023-06-21 16:59:04,0.031s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:59:04,2023-06-21 16:59:04,0.049s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-21 16:59:04,2023-06-21 16:59:07,3.012s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input_search""), ""super"")",Chrome 114.0.0.0,,,2023-06-21 16:59:07,2023-06-21 16:59:08,1.221s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-06-21 16:59:08,2023-06-21 16:59:13,5.015s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF,Chrome 114.0.0.0,,,2023-06-21 16:59:13,2023-06-21 16:59:41,28.162s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/span_Reports""))",Chrome 114.0.0.0,,,2023-06-21 16:59:14,2023-06-21 16:59:15,0.920s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/span_Audit Trail Report""))",Chrome 114.0.0.0,,,2023-06-21 16:59:15,2023-06-21 16:59:16,0.943s,PASSED
+today = new java.util.Date(),Chrome 114.0.0.0,,,2023-06-21 16:59:16,2023-06-21 16:59:16,0.026s,PASSED
+dateFormat = new java.text.SimpleDateFormat(yyyy-MM-dd),Chrome 114.0.0.0,,,2023-06-21 16:59:16,2023-06-21 16:59:16,0.034s,PASSED
+currentDate = dateFormat.format(today),Chrome 114.0.0.0,,,2023-06-21 16:59:16,2023-06-21 16:59:16,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input__startDate1""), currentDate)",Chrome 114.0.0.0,,,2023-06-21 16:59:16,2023-06-21 16:59:17,1.378s,PASSED
+"setText(findTestObject(""Object Repository/Page_LOS Web HomePage/input__endDate1""), currentDate)",Chrome 114.0.0.0,,,2023-06-21 16:59:17,2023-06-21 16:59:18,0.966s,PASSED
+"click(findTestObject(""SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report""))",Chrome 114.0.0.0,,,2023-06-21 16:59:18,2023-06-21 16:59:19,0.597s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/button_Generate in PDF""))",Chrome 114.0.0.0,,,2023-06-21 16:59:19,2023-06-21 16:59:19,0.523s,PASSED
+acceptAlert(),Chrome 114.0.0.0,,,2023-06-21 16:59:19,2023-06-21 16:59:19,0.023s,PASSED
+delay(20),Chrome 114.0.0.0,,,2023-06-21 16:59:19,2023-06-21 16:59:39,20.018s,PASSED
+"click(findTestObject(""SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Buttons/button_""))",Chrome 114.0.0.0,,,2023-06-21 16:59:39,2023-06-21 16:59:41,1.828s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-06-21 16:59:41,2023-06-21 16:59:41,0.038s,PASSED
+closeWindowIndex(1),Chrome 114.0.0.0,,,2023-06-21 16:59:41,2023-06-21 16:59:41,0.089s,PASSED
+switchToWindowIndex(0),Chrome 114.0.0.0,,,2023-06-21 16:59:41,2023-06-21 16:59:41,0.024s,PASSED
+,,,,,,,
+Test Cases/LOS RBI/Logout,Chrome 114.0.0.0,,,2023-06-21 16:59:41,2023-06-21 16:59:45,3.601s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/a_Logout""))",Chrome 114.0.0.0,,,2023-06-21 16:59:42,2023-06-21 16:59:43,0.823s,PASSED
+"click(findTestObject(""Object Repository/Page_LOS Web HomePage/a_Logout_1""))",Chrome 114.0.0.0,,,2023-06-21 16:59:43,2023-06-21 16:59:44,1.278s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-21 16:59:44,2023-06-21 16:59:45,0.833s,PASSED

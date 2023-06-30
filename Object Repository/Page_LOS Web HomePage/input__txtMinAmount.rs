@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f4eaea2f-9050-4843-a76f-f0be537cfb22</webElementGuid>
+      <webElementGuid>044d5f11-96d6-4d18-8a30-e0b8ad39ecf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>d72ee50e-2f1d-4fa5-9008-e70f2a6850e5</webElementGuid>
+      <webElementGuid>a4ceb832-c3c8-4b11-8a78-7ad67a5725bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtMinAmount</value>
-      <webElementGuid>a7a58e64-aeba-42aa-a901-7b6fe0a391a4</webElementGuid>
+      <webElementGuid>5bb176c0-7a00-4e83-85c5-b9a27007e8fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control addMatrix</value>
-      <webElementGuid>e3017c55-6a94-4973-87e1-2eac91549140</webElementGuid>
+      <webElementGuid>2a782ddb-1a2f-4c73-86e5-8d810b0be4ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Minimum Amount</value>
-      <webElementGuid>135422cc-1ab1-43a5-b721-74f1ddbbb09d</webElementGuid>
+      <webElementGuid>1c5ae780-7e0b-49ed-b15c-07e7c77bb3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e0deb2d7-51a9-4743-bb82-6202264ab623</webElementGuid>
+      <webElementGuid>db5ce73c-7da6-4552-b111-f842a24914e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtMinAmount&quot;)</value>
-      <webElementGuid>6d751a25-c69f-4422-afbd-4d4bde68d67b</webElementGuid>
+      <webElementGuid>5368682c-68ea-4301-9a26-c9145fcd0e52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtMinAmount']</value>
-      <webElementGuid>a5bcfc0f-3ced-44f2-870d-d6944c196ad9</webElementGuid>
+      <webElementGuid>0a353193-e6da-4cac-8ba5-94715d04975c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='NewLoanMatrix']/div/div/div[2]/div/div/div/input</value>
-      <webElementGuid>849e0bdf-d653-4b54-9ee6-b2bbff0c9310</webElementGuid>
+      <webElementGuid>3e43e415-b687-4476-9632-c186b80eff0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/div/input</value>
-      <webElementGuid>3cc6964e-a899-44c4-8dbe-1d5bf3aee9a1</webElementGuid>
+      <webElementGuid>bad1314e-c5dd-4509-9bd0-066c58cb19da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @id = 'txtMinAmount' and @placeholder = 'Minimum Amount']</value>
-      <webElementGuid>fa480fcf-3b7b-4724-8746-4f3b3e67ddd7</webElementGuid>
+      <webElementGuid>301e296b-c573-42d9-bf85-e93c17be87b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

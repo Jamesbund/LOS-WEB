@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Approval_fa fa-edit</name>
+   <tag></tag>
+   <elementGuidId>3a3d7f8a-1ff8-4f1a-b521-a9904dda5d0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='delMatrix_92,5071,503694,Super Admin,Recommendation']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9f4860ee-e84a-46e7-b8fb-2c9864d7f961</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash</value>
+      <webElementGuid>ba4da7c0-49b1-4a60-b350-69e07a4183a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;delMatrix_92,5071,503694,Super Admin,Recommendation&quot;)/i[@class=&quot;fa fa-trash&quot;]</value>
+      <webElementGuid>6eed127d-8626-4d2d-a6e8-2989135e6415</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='delMatrix_92,5071,503694,Super Admin,Recommendation']/i</value>
+      <webElementGuid>7c8db039-27e3-423b-b00a-d8f6c52beb3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td/button[2]/i</value>
+      <webElementGuid>b6a703b5-9b8d-4db2-9706-c757bf6acf56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//button[@id='btnEditMatrix']/i)[6]</value>
+      <webElementGuid>293eb2c5-ae14-4381-a409-6c3a5bec97f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td/button/i</value>
+      <webElementGuid>32834ce2-a3a3-46f7-b73b-7a4a38744725</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

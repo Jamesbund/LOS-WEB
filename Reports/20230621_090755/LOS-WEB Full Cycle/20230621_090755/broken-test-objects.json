@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix",
+      "brokenLocator": "//button[@id\u003d\u0027delMatrix_101,3588,90608,Super Admin,Approval\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027datatable-keytable\u0027]/tbody/tr/td/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230621_090755/LOS-WEB Full Cycle/20230621_090755/Object Repository/Page_LOS Web HomePage/button_Description_btnDeleteMatrix_idRelative.png"
+    }
+  ]
+}

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[37]</value>
+         <value>(//button[@type='button'])[49]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#NewLoanMatrix > div.modal-dialog > div.modal-content > div.modal-body > div.card-body > div.modal-footer > button.btn.btn-default</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>14623d1c-f6ae-4773-a5d9-5d016fc42cf7</webElementGuid>
+      <webElementGuid>11308b1e-98ca-4313-b051-78c1d8c069f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>21e851a9-5b3e-4431-88a1-a5974bbe19b6</webElementGuid>
+      <webElementGuid>8406c6c1-92bc-42f0-a108-30a051923c16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-      <webElementGuid>653113e6-9cff-4b4c-8aef-3f010aba7ccd</webElementGuid>
+      <webElementGuid>c8941e62-ecdc-42b3-a147-28f18ed4bfa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>36604e86-4744-4695-871c-579e6f2f6be1</webElementGuid>
+      <webElementGuid>94d2e83c-4e58-4099-a66f-8f7f39bc2899</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,18 +54,138 @@
       <name>text</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>18925d78-64bb-41f2-84a5-deecbff30b7e</webElementGuid>
+      <webElementGuid>9e0ef4de-9664-48aa-9e65-a7f8afb7a768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;NewLoanMatrix&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
-      <webElementGuid>e3d93190-3af5-4dd5-b232-a5314fad3a23</webElementGuid>
+      <value>id(&quot;RSAuditTrail&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>5200ce5c-56b5-49de-9063-49dae700a371</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[49]</value>
+      <webElementGuid>b010a344-d2f3-43fa-8138-e520334c5775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='RSAuditTrail']/div/div/div[2]/div[2]/button[3]</value>
+      <webElementGuid>d5207bb1-3988-4047-b1ad-d2e8c4fbd956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate in Excel'])[3]/following::button[1]</value>
+      <webElementGuid>a54f5339-9ee8-4ce0-9c7c-92dcb7bb0769</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate in PDF'])[3]/following::button[2]</value>
+      <webElementGuid>1473b11b-bee8-4b52-9cdf-2d2a7425e02f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch Unit List'])[1]/preceding::button[1]</value>
+      <webElementGuid>5ab60ad0-a499-4a5b-944d-bc0518b4731d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[15]/preceding::button[1]</value>
+      <webElementGuid>d23b0daf-083d-4883-bec1-8b5131d0a165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div/div/div[2]/div[2]/button[3]</value>
+      <webElementGuid>5707dc28-749b-47e1-8aee-851d457d4f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>55e2c380-403b-40fb-a7e9-81dedf501368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[28]</value>
+      <webElementGuid>3afc803b-af12-4ab7-81ca-8cce47c19b99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='LoanMatrix']/div/div/div[2]/div/div/button[2]</value>
+      <webElementGuid>7fe2dad3-ac66-406c-a969-45c7cf93e95f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update'])[2]/following::button[1]</value>
+      <webElementGuid>013b89a7-4994-470f-bc03-60a813a90e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Amount'])[2]/following::button[2]</value>
+      <webElementGuid>f8b52043-55bd-4c19-bebe-bdbaeb6c0bfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Matrix'])[3]/preceding::button[1]</value>
+      <webElementGuid>aa16a6c0-c43a-40bc-b6d5-c2b73dcddbd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[6]/preceding::button[1]</value>
+      <webElementGuid>04e6de04-ff3b-44bb-8896-78a6a3883a4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div/div/button[2]</value>
+      <webElementGuid>7b9124db-3d23-4a1f-9f15-38bfcf4e4dc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -119,13 +239,5 @@
       <type>Main</type>
       <value>//div[5]/button[2]</value>
       <webElementGuid>6ae73ef0-97d6-4883-ac1f-52ac76e5d66b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
-      <webElementGuid>9eb66c01-081f-48bb-9908-cc6c9d08d775</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Loan Matrix</name>
+   <tag></tag>
+   <elementGuidId>b1bd2aae-3848-4a32-a68d-ebdcf109b7e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='access_loanMatrix']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#access_loanMatrix > a.dropdown-toggle.nav-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>48918074-c5da-4f2e-9d3e-9a818d8ce533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#lASubmenu</value>
+      <webElementGuid>d4adadc2-2d4a-4d01-a4ae-ffbc5bed8dd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>11cfe474-404f-4be4-a50f-22b02fbff389</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle nav-link</value>
+      <webElementGuid>351e3788-4646-4305-8d54-fed60bfa9ba8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Loan Matrix</value>
+      <webElementGuid>d5e58707-614e-4e5f-b2bd-8b74ed99d60f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;access_loanMatrix&quot;)/a[@class=&quot;dropdown-toggle nav-link&quot;]</value>
+      <webElementGuid>f1d1ff0c-4c3a-4a34-a366-1c2b80e86c03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='access_loanMatrix']/a</value>
+      <webElementGuid>ef10c51b-48a0-4bf0-b250-fdc9b5545d45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
+      <webElementGuid>9e64c3bb-4ab1-483f-8fcf-bdea938e90dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Summary'])[1]/following::a[2]</value>
+      <webElementGuid>7345ce38-73d8-42e4-aa19-9080e84fec5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Matrix'])[1]/preceding::a[1]</value>
+      <webElementGuid>dbb7f91e-208d-4e40-9c78-5b6891c448fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#lASubmenu')]</value>
+      <webElementGuid>f4d19db5-fc27-4dbe-a786-2324e7dcbd30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>175dfc8b-a421-4b9f-a392-811e0e39d3cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#lASubmenu' and (text() = 'Loan Matrix' or . = 'Loan Matrix')]</value>
+      <webElementGuid>9f027cc6-5680-4bef-beb6-1534b9f9135f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

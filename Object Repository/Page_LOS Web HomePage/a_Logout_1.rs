@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b8d26f22-3b94-4a0b-94f3-23fcfbd71a22</webElementGuid>
+      <webElementGuid>392d1d79-a554-4632-b781-85bfe80c14db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>5a6b44c1-99b8-4f69-8e35-645c80f86f2e</webElementGuid>
+      <webElementGuid>e70e2a07-82d2-420a-88e1-be461d17f5ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/LOSWEB/logout</value>
-      <webElementGuid>2e2b8f30-1b41-49e5-a5bd-4f433478e25d</webElementGuid>
+      <webElementGuid>205bba6a-cc3b-4155-9ee9-58d4104174f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnLogOut</value>
-      <webElementGuid>d1f3cefd-db55-475f-8a01-47ffbc43495b</webElementGuid>
+      <webElementGuid>171c887a-61f6-43d8-9811-608e32111672</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>eb278e9d-3846-4e8b-844b-bd2ffeaabb28</webElementGuid>
+      <webElementGuid>86afc283-57b7-41f7-8dcf-ea038dbc8454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnLogOut&quot;)</value>
-      <webElementGuid>a0d4ced7-f2be-4e4e-bc41-a96bebd970bc</webElementGuid>
+      <webElementGuid>8c6a983a-e2c1-4aa5-b972-e4dd0e3d48f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='btnLogOut']</value>
-      <webElementGuid>309286bd-ad16-4443-899c-127c4e891e22</webElementGuid>
+      <webElementGuid>1bad30c6-a666-4542-85e5-949adf2ec6bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='logoutModal']/div/div/div[3]/a</value>
-      <webElementGuid>44746cb7-d55c-4c24-9293-aa2cb5d16dce</webElementGuid>
+      <webElementGuid>36095329-63bc-4a1a-b2d8-bf2c030966be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Logout')])[2]</value>
-      <webElementGuid>8719ffc7-d3f2-41bd-9fe0-4f1e924680bb</webElementGuid>
+      <webElementGuid>443bc94b-37e3-4da5-b76b-e00f779212b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::a[1]</value>
-      <webElementGuid>63d398eb-a83e-4dd0-9290-c2ad69ae19d7</webElementGuid>
+      <webElementGuid>c7e30c03-a4c0-44d5-9ec0-7084ad5c359a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/preceding::a[1]</value>
-      <webElementGuid>c955c9a0-d3a7-4efe-aa97-581bbf41c242</webElementGuid>
+      <webElementGuid>4eac694f-9d3e-4945-8210-d94103989dc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Should be 8 characters.'])[1]/preceding::a[1]</value>
-      <webElementGuid>d92a79cd-1236-4ad5-a908-d1430320ca69</webElementGuid>
+      <webElementGuid>187cb70e-9746-4309-8e02-729aee024adb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/LOSWEB/logout')]</value>
-      <webElementGuid>306bb6b5-ab5b-414a-a052-4fa4ad463ced</webElementGuid>
+      <webElementGuid>31703881-721d-4954-83c1-b8bce39799dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>f6f9e82f-c3c7-47c8-a386-2b6f0d0563a4</webElementGuid>
+      <webElementGuid>0ab437ff-23bf-486e-b5b2-f9a20e80351a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/LOSWEB/logout' and @id = 'btnLogOut' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>67f52f65-73eb-477c-bf76-706710052538</webElementGuid>
+      <webElementGuid>5cef78ed-a1cd-4f82-b270-5a454b76ecc6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

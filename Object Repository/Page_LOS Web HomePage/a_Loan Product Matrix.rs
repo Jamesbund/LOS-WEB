@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Loan Product Matrix</name>
+   <tag></tag>
+   <elementGuidId>b9dc8d91-d586-430c-9271-978c17092746</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='access_103']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#access_103 > a.nav-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>41042cda-307f-46ed-98eb-5cb64a63a930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>?panel=LoanTerm</value>
+      <webElementGuid>62aadd11-539e-4997-8cfc-e99a8fd5a57e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>f7a19e84-7417-4e03-b7f9-49965643306f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Loan Product Matrix</value>
+      <webElementGuid>1ddda3fb-06a8-4d70-9889-e0605b8959b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;access_103&quot;)/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>799e8a2a-190f-4472-880d-b56581c43b32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='access_103']/a</value>
+      <webElementGuid>cbb24495-eb66-4f84-8940-54ab5537409a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Matrix'])[1]/following::a[1]</value>
+      <webElementGuid>6bf50a40-5e25-4c8e-a2a1-37fcd381a099</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Matrix'])[1]/following::a[2]</value>
+      <webElementGuid>44350398-6e4b-4e52-ab19-f250b9612679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cashflow Matrix'])[1]/preceding::a[1]</value>
+      <webElementGuid>331ad89d-f288-451b-a33f-c61a4ca68e60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '?panel=LoanTerm')]</value>
+      <webElementGuid>a63ad7da-66a9-4919-b320-d27fc38179ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li[2]/a</value>
+      <webElementGuid>269ae3b7-d989-4d7d-ad66-bd3c08ffd4e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '?panel=LoanTerm' and (text() = 'Loan Product Matrix' or . = 'Loan Product Matrix')]</value>
+      <webElementGuid>207ad520-e383-41d8-9ccc-6473d252b664</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
