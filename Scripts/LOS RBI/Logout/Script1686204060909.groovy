@@ -21,5 +21,3 @@ WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Logout'))
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Logout_1'))
 
-WebUI.closeBrowser()
-
