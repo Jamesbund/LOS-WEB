@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>60bbc706-67c2-4066-8214-9eaa74da6578</webElementGuid>
+      <webElementGuid>2113445f-e64a-43f0-bad6-594055c8db85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>2685406d-c3ab-4067-987b-0ba016aac30d</webElementGuid>
+      <webElementGuid>2ddfda3c-ca3b-49c5-8eab-da60864a6f7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtNewMinAmount_1</value>
-      <webElementGuid>b37ace4f-e6c6-4911-8ae9-f472885159bf</webElementGuid>
+      <webElementGuid>f2d85df9-b117-46ee-81b3-0300eb909cdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form_1</value>
-      <webElementGuid>92f52613-568d-4bed-ac94-745ed7d488d9</webElementGuid>
+      <webElementGuid>792576d2-6843-40b2-85ca-ff60b66c265e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Minimum Amount</value>
-      <webElementGuid>fee77206-384c-47ac-8d94-2a287f38e3c6</webElementGuid>
+      <webElementGuid>05626e31-fc11-471d-aff8-357dc8e19f27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1829b2ff-c930-4cfd-89e6-1bcb39fb8f73</webElementGuid>
+      <webElementGuid>e81ac998-065e-4b58-be1b-2d98e64064a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txtNewMinAmount_1&quot;)</value>
-      <webElementGuid>b9ebcbec-2f61-4608-803b-84c353b1b8f4</webElementGuid>
+      <webElementGuid>f479bc8b-ed14-4f36-846e-9590a53aa4e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtNewMinAmount_1']</value>
-      <webElementGuid>35d412ef-acf7-4a58-a08d-d679138ee183</webElementGuid>
+      <webElementGuid>77746f98-6189-499d-acde-0ddf7635b38c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='modePanel_1']/td/div/div[3]/div/div/div/input</value>
-      <webElementGuid>9c47c2e3-ca61-43b7-bb15-365d3d66239e</webElementGuid>
+      <webElementGuid>b600eb07-5b29-41f9-b08c-2166509f6c24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/input</value>
-      <webElementGuid>6089bfc9-f69d-4050-a408-a7461007c748</webElementGuid>
+      <webElementGuid>7a767420-be4f-4160-98c2-5f551554c25a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @id = 'txtNewMinAmount_1' and @placeholder = 'Minimum Amount']</value>
-      <webElementGuid>387d48fe-2693-4e62-a25a-b7631c9b188a</webElementGuid>
+      <webElementGuid>faa5b94d-dc02-47cf-8473-ac465e8d81eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

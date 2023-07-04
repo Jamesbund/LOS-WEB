@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Pro Rate on Half_Test_Product77209</name>
    <tag></tag>
-   <elementGuidId>def66385-48c3-4c82-90a8-d79cf53e2dab</elementGuidId>
+   <elementGuidId>37627c1f-6a3a-4610-b3c9-1d4cb1b79598</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//button[@id='delProduct_42']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#delProduct_42</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>207722d4-8c3a-4ce1-b577-b6c52b7b900c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-block login-btn</value>
-      <webElementGuid>dc3f647b-10d3-43f3-9694-d360373eb0c9</webElementGuid>
+      <webElementGuid>3d8e7298-e089-4a49-b80a-17bea9baf46a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,87 +30,95 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0ed03bed-98fa-4fc8-9481-e3be964de963</webElementGuid>
+      <webElementGuid>7fd23310-ee79-4c3c-9a3a-4f23f49397dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btm-sm btn-bilog btn-danger btnDeleteTerm</value>
+      <webElementGuid>3173cf64-3c65-43ee-99b7-223c47100c85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>9d005061-dc5a-4cea-8065-761d61f70b57</webElementGuid>
+      <value>delProduct_42</value>
+      <webElementGuid>cbd43509-e827-4cf9-819c-fa54c1a52d27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Login </value>
-      <webElementGuid>b7438e1c-b679-4601-92d3-dcaca71930fa</webElementGuid>
+      <value>Test_Product77209</value>
+      <webElementGuid>b9a966ac-c5df-479a-abde-9bc1e1cbb4cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Delete Term</value>
+      <webElementGuid>cd48dca3-c5ca-42dc-aa52-c714a7009eda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>dc8eae58-2023-4437-a410-904354d00757</webElementGuid>
+      <value>id(&quot;delProduct_42&quot;)</value>
+      <webElementGuid>a10d27bc-bd81-4d23-afd3-278323dd8b5c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>083ec00c-a64c-45dd-b05c-517316435333</webElementGuid>
+      <value>//button[@id='delProduct_42']</value>
+      <webElementGuid>50d21d51-802a-48e7-87b6-2864becc37ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/button</value>
-      <webElementGuid>0a697197-01a3-4109-b036-cf4ccf584d61</webElementGuid>
+      <value>//table[@id='LoanTermTable']/tbody/tr/td/button</value>
+      <webElementGuid>ce56bf85-6cac-487b-8027-cafbbbc5517d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>5cbf0ba7-3eb0-45e6-9215-d871f4a5a7d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pro Rate on Half'])[1]/following::button[1]</value>
+      <webElementGuid>d87aebe1-c49a-45a8-b748-42ab2a16a32e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>13a93cc9-541e-4d1d-b193-63783546ac24</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat Rate'])[1]/following::button[1]</value>
+      <webElementGuid>a5a97d52-1e47-4772-8b3d-99f9bf09ad1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password ?'])[1]/preceding::button[1]</value>
-      <webElementGuid>69e4c893-66d6-4707-bb65-53891bc7eab7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Product77209'])[1]/preceding::button[1]</value>
+      <webElementGuid>4c235808-5578-4de2-a236-c7329799faf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnLogin', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>c147266f-4bb7-49d8-9b79-ea061777612f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>8c2b8647-1cf1-47e9-8b4f-5d70d423b6d0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEEKLY'])[1]/preceding::button[1]</value>
+      <webElementGuid>6c500dc6-d5a5-428c-9d4a-594e74591c9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,14 +126,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>c4347e44-084d-4348-926b-45c986ba460c</webElementGuid>
+      <webElementGuid>5081f4c0-9cfa-4e6a-a306-07c7f5cf0b5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = 'Login ' or . = 'Login ')]</value>
-      <webElementGuid>4bd13424-b452-47f9-ac45-29046ed3c894</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'delProduct_42' and @name = 'Test_Product77209' and @title = 'Delete Term']</value>
+      <webElementGuid>39ec2139-b809-4510-836d-88851c73af09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

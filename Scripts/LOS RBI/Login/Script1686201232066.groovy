@@ -26,13 +26,9 @@ WebUI.navigateToUrl('https://lossmetest.cardmri.com:8445/LOSWEB/login')
 WebUI.click(findTestObject('Object Repository/Page_LOS Web - Login/label_Username'))
 
 WebUI.setText(findTestObject('Object Repository/Page_LOS Web - Login/input_LOAN ORIGINATION SYSTEM (LOS) Web_userName'), 
-    'eebrion')
+    'gcdimaculangan')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_LOS Web - Login/input_Username_userPass'), 'NFmJYP+sThSRdMjqd2IGIg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_LOS Web - Login/input_Username_userPass'), 'MHSUC33hkPnBWRnjFBNCPA==')
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web - Login/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Logout'))
-
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Logout_1'))
 

@@ -29,21 +29,21 @@
       <guid>b15beda8-d5f0-4505-ac93-f3257ca5fc55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LOS RBI/Loan Matrix/Loan Amount/ADD</testCaseId>
+      <testCaseId>Test Cases/LOS RBI/Loan Matrix/Loan Amount/LA_ADD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>affa8d78-91a8-4b2a-b36e-5f1f3c011cc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LOS RBI/Loan Matrix/Loan Amount/EDIT</testCaseId>
+      <testCaseId>Test Cases/LOS RBI/Loan Matrix/Loan Amount/LA_EDIT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8d9403ef-aa4f-43b9-b493-755956deee17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LOS RBI/Loan Matrix/Loan Amount/DELETE</testCaseId>
+      <testCaseId>Test Cases/LOS RBI/Loan Matrix/Loan Amount/LA_DELETE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

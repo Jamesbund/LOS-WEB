@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Loan Matrix</name>
+   <name>span_Loan Product Matrix</name>
    <tag></tag>
-   <elementGuidId>5c6cab92-e604-44ff-a31b-dcfb6fe19aed</elementGuidId>
+   <elementGuidId>193c467c-78dc-4b21-ad07-fe66348111db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='access_loanMatrix']/a/span</value>
+         <value>//li[@id='access_103']/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.dropdown-toggle.nav-link > span</value>
+         <value>#access_103 > a.nav-link > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0bea41fc-de83-4fe0-97f1-19af54a2da2d</webElementGuid>
+      <webElementGuid>36c1c4d5-4595-439c-aafc-ae393add5dde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Loan Matrix</value>
-      <webElementGuid>336097ce-fc46-400f-bcf6-571ae896006b</webElementGuid>
+      <value>Loan Product Matrix</value>
+      <webElementGuid>c4acd482-1585-4492-a64a-18ab82e48f9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;access_loanMatrix&quot;)/a[@class=&quot;dropdown-toggle nav-link&quot;]/span[1]</value>
-      <webElementGuid>662b369f-e2b9-44d6-bbfd-9f3082042dd9</webElementGuid>
+      <value>id(&quot;access_103&quot;)/a[@class=&quot;nav-link&quot;]/span[1]</value>
+      <webElementGuid>48f0035d-f6b0-4ca5-8bab-20b291b0763c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='access_loanMatrix']/a/span</value>
-      <webElementGuid>c6a02460-0528-4984-b619-61836b3b177b</webElementGuid>
+      <value>//li[@id='access_103']/a/span</value>
+      <webElementGuid>f0aa892a-0ce9-48d7-82bd-2dbc11ec5ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
-      <webElementGuid>06df54a4-8d31-4410-ad81-a759c3ca5d69</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Matrix'])[1]/following::span[1]</value>
+      <webElementGuid>4dd52ae3-141d-4906-8c22-0256ba8ed575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Summary'])[1]/following::span[2]</value>
-      <webElementGuid>c0ce6b06-5b0b-4c6d-8745-cb08bdc49add</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Matrix'])[1]/following::span[2]</value>
+      <webElementGuid>8a06e072-df4b-4bd1-86a1-f5a6de11d6d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Matrix'])[1]/preceding::span[1]</value>
-      <webElementGuid>c5cc6b02-5d75-4656-8a3c-8e0505069012</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cashflow Matrix'])[1]/preceding::span[1]</value>
+      <webElementGuid>56a7ec09-9155-456f-b3d6-4a4069830178</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Product Matrix'])[1]/preceding::span[2]</value>
-      <webElementGuid>5020018d-76f6-4e96-9cc1-41cede3327d3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Purpose'])[1]/preceding::span[2]</value>
+      <webElementGuid>191e42c7-47db-4b54-a11e-6446dcde3e96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Loan Matrix']/parent::*</value>
-      <webElementGuid>5a2e474f-84ad-4dc9-b039-b6e3963aa39b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Loan Product Matrix']/parent::*</value>
+      <webElementGuid>745921b3-f25a-4558-8bca-c60a7cdf9886</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a/span</value>
-      <webElementGuid>e0a52c7a-3538-40e2-948c-78fc3f395bde</webElementGuid>
+      <value>//li[2]/ul/li[2]/a/span</value>
+      <webElementGuid>76f3df6e-1287-4694-b205-0cae876b70e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Loan Matrix' or . = 'Loan Matrix')]</value>
-      <webElementGuid>8c9eea1e-d8b3-48d3-8ea6-4c1fd9a177e6</webElementGuid>
+      <value>//span[(text() = 'Loan Product Matrix' or . = 'Loan Product Matrix')]</value>
+      <webElementGuid>daa817e9-37bb-4b5a-a68d-b45ab9b8eb0b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

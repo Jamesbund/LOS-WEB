@@ -17,25 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID'), '1020082199')
+WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Pro Rate on Half_btnLoadTermModal'))
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Search'))
+WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_Minimum Term_txtNewMaxTerm_1'), '25')
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/input_Require PPI_chkRequirePPI'))
 
-WebUI.scrollToPosition(0, 150)
+WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Update Loan Product'))
 
-WebUI.delay(3)
+WebUI.acceptAlert()
 
-WebUI.click(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Dashboard/ePN/a_8178679fcd12d1bf20230623040901642'))
+WebUI.acceptAlert()
 
-WebUI.delay(10)
-
-WebUI.switchToWindowIndex(0)
+WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_search'), 'Test Product')
 
 WebUI.delay(5)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
 

@@ -17,25 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID'), '1020082199')
+WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_search'), 'Test Product')
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Search'))
+WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/i_Approval_fa fa-edit'))
 
-WebUI.delay(3)
+WebUI.acceptAlert()
 
-WebUI.scrollToPosition(0, 150)
+WebUI.acceptAlert()
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Dashboard/ePN/a_8178679fcd12d1bf20230623040901642'))
-
-WebUI.delay(10)
-
-WebUI.switchToWindowIndex(0)
+WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_search'), 'Test Product')
 
 WebUI.delay(5)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
 

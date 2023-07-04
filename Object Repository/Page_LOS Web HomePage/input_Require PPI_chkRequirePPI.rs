@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>53f39a4e-89e8-47b9-b92e-57823a39420f</webElementGuid>
+      <webElementGuid>7204422c-7b53-4f08-ae8f-74b4c9443c67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>acbd379c-bafb-4949-8cee-e9128745dc64</webElementGuid>
+      <webElementGuid>974eb7a9-98eb-4d92-9757-fee204ba558f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>chkRequirePPI</value>
-      <webElementGuid>de7e1590-c873-4728-8edf-68975c5755ac</webElementGuid>
+      <webElementGuid>bd7a51a8-9b98-439f-bf26-4d82ac38de18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>chkRequirePPI</value>
-      <webElementGuid>2b8faebc-76f8-41ec-8714-f3c6066209a7</webElementGuid>
+      <webElementGuid>ee7d505a-1253-4b2b-bcf5-c2e3f1c974ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6f216322-b48a-45d5-a126-7ded3eedcb84</webElementGuid>
+      <webElementGuid>8822a94f-580e-4bb8-96f6-71d31ddd1ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;chkRequirePPI&quot;)</value>
-      <webElementGuid>c264efff-b29c-4ab8-9162-40b20762f30a</webElementGuid>
+      <webElementGuid>90437138-671b-4bc1-bd84-c69e1471db1a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='chkRequirePPI']</value>
-      <webElementGuid>b2d83d7f-12af-470c-9d54-37f50fb9363c</webElementGuid>
+      <webElementGuid>09226738-fd83-429b-a333-c1a9b634e384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div/div/div/div[6]/div/div/div/div/label/input</value>
-      <webElementGuid>8085625d-6682-4b83-a812-e50aec913f24</webElementGuid>
+      <webElementGuid>2cb3843b-d40b-48d6-bb8e-5f1ae0ca88e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/input</value>
-      <webElementGuid>8ff63cbb-d129-441e-a6e2-aec1d639747b</webElementGuid>
+      <webElementGuid>2fcce510-dc33-471e-895a-b2acf3c525cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'chkRequirePPI' and @id = 'chkRequirePPI']</value>
-      <webElementGuid>8c940b36-8095-4013-a98e-261bd8b3e722</webElementGuid>
+      <webElementGuid>16b9db84-d35c-49b6-9578-abec5f04fbf6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

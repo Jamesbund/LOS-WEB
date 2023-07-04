@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>16c1d05d-5a76-436a-8aec-c649eb079d2a</webElementGuid>
+      <webElementGuid>89e02b04-6bef-4599-8013-c0c873e39167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>userName</value>
-      <webElementGuid>8296c8d5-9fed-499a-bfb8-141131f69a5b</webElementGuid>
+      <webElementGuid>890c236b-03d3-49ac-be17-0223ba0d0ffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Username</value>
-      <webElementGuid>1d70d661-2f18-417d-b276-9ea15791e935</webElementGuid>
+      <webElementGuid>4f7b9e8f-c643-47b3-8404-9537f9edd51a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sign-in-form&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-label-group&quot;]/label[1]</value>
-      <webElementGuid>cc04e4fb-0f13-4740-8a77-e352e4c0e8f9</webElementGuid>
+      <webElementGuid>61d0cfe8-2f28-4dfb-9c23-f65c18d6f73b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='sign-in-form']/div/div/label</value>
-      <webElementGuid>c4c3e35f-bf38-4f1e-aac3-c3841603640d</webElementGuid>
+      <webElementGuid>887c21c0-8cad-451f-929f-a8ef46bac0f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LOAN ORIGINATION SYSTEM (LOS) Web'])[1]/following::label[1]</value>
-      <webElementGuid>3df0ea2f-bee4-4af0-bbbd-595dc3ba1193</webElementGuid>
+      <webElementGuid>bb5b1049-f95e-43de-bd86-6f952338c0b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::label[1]</value>
-      <webElementGuid>61ce7266-36c7-443d-ac05-ce3cb522129e</webElementGuid>
+      <webElementGuid>c13811bb-d1c0-4918-a3fc-5177d183da72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::label[2]</value>
-      <webElementGuid>c3308210-ad5c-49c9-80ad-ebce4f45712d</webElementGuid>
+      <webElementGuid>0be745bf-e244-481c-8849-45ba5205fd92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Username']/parent::*</value>
-      <webElementGuid>dd7fe7dd-486f-40ac-b95f-5ee6a3cce511</webElementGuid>
+      <webElementGuid>124e6de7-e02f-4938-bd14-85a065e05dbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>2642a6f2-df67-437a-a691-938e9c9cd694</webElementGuid>
+      <webElementGuid>4388d07e-fe0b-4fef-8dcd-97def753f6b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Username' or . = 'Username')]</value>
-      <webElementGuid>dab1f8f3-abc5-4544-89a6-1e19280e4c2a</webElementGuid>
+      <webElementGuid>6becd949-a991-4191-ba93-df4ff30a8dac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

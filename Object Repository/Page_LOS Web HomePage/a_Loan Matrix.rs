@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>48918074-c5da-4f2e-9d3e-9a818d8ce533</webElementGuid>
+      <webElementGuid>b40e0919-9925-4616-8c14-609f69bd0ad5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#lASubmenu</value>
-      <webElementGuid>d4adadc2-2d4a-4d01-a4ae-ffbc5bed8dd7</webElementGuid>
+      <webElementGuid>3daad75a-c655-4f4a-a6c5-5e5029cbb38c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>11cfe474-404f-4be4-a50f-22b02fbff389</webElementGuid>
+      <webElementGuid>90c15b21-6242-4fa1-9e09-0646ba03bd9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-toggle nav-link</value>
-      <webElementGuid>351e3788-4646-4305-8d54-fed60bfa9ba8</webElementGuid>
+      <webElementGuid>d0da97e2-960e-49a9-b538-33c8d63feaf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Loan Matrix</value>
-      <webElementGuid>d5e58707-614e-4e5f-b2bd-8b74ed99d60f</webElementGuid>
+      <webElementGuid>e39facf2-ccf2-476d-a0f7-8466367f3bcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;access_loanMatrix&quot;)/a[@class=&quot;dropdown-toggle nav-link&quot;]</value>
-      <webElementGuid>f1d1ff0c-4c3a-4a34-a366-1c2b80e86c03</webElementGuid>
+      <webElementGuid>b5bb175d-866c-4c78-b6d9-78ae47159090</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='access_loanMatrix']/a</value>
-      <webElementGuid>ef10c51b-48a0-4bf0-b250-fdc9b5545d45</webElementGuid>
+      <webElementGuid>16a4a760-8187-45c5-8c47-cee4078abd5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
-      <webElementGuid>9e64c3bb-4ab1-483f-8fcf-bdea938e90dc</webElementGuid>
+      <webElementGuid>038ab026-35d7-4165-942f-30b74fb9a60f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View Summary'])[1]/following::a[2]</value>
-      <webElementGuid>7345ce38-73d8-42e4-aa19-9080e84fec5c</webElementGuid>
+      <webElementGuid>9f4c6daa-d802-4845-9400-2179a1e7ed33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Amount Matrix'])[1]/preceding::a[1]</value>
-      <webElementGuid>dbb7f91e-208d-4e40-9c78-5b6891c448fc</webElementGuid>
+      <webElementGuid>61ae285e-860e-40f3-8519-4b669fe6d848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#lASubmenu')]</value>
-      <webElementGuid>f4d19db5-fc27-4dbe-a786-2324e7dcbd30</webElementGuid>
+      <webElementGuid>c3b33a5c-400c-4ccb-a2d2-1e9d74610b60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>175dfc8b-a421-4b9f-a392-811e0e39d3cf</webElementGuid>
+      <webElementGuid>acf88f9c-5d6d-43c8-9788-c409b7d693db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#lASubmenu' and (text() = 'Loan Matrix' or . = 'Loan Matrix')]</value>
-      <webElementGuid>9f027cc6-5680-4bef-beb6-1534b9f9135f</webElementGuid>
+      <webElementGuid>6ae385a4-dbda-47e5-ae38-97eb963f7df5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

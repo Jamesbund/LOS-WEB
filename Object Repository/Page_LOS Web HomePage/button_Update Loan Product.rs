@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Update Loan Product</name>
    <tag></tag>
-   <elementGuidId>def66385-48c3-4c82-90a8-d79cf53e2dab</elementGuidId>
+   <elementGuidId>8e34fe91-c55f-4b1e-9439-c89dbb2e5252</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//button[@id='btnUpdateLoanProduct']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#btnUpdateLoanProduct</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>207722d4-8c3a-4ce1-b577-b6c52b7b900c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-block login-btn</value>
-      <webElementGuid>dc3f647b-10d3-43f3-9694-d360373eb0c9</webElementGuid>
+      <webElementGuid>f296d99a-430e-44eb-bcff-4e662686b625</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,102 +30,102 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0ed03bed-98fa-4fc8-9481-e3be964de963</webElementGuid>
+      <webElementGuid>90b9e315-a5b1-4fbe-8050-0ad2f5ba1925</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>2e97f07b-5d38-4a4d-9765-58b7b53c5ada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>9d005061-dc5a-4cea-8065-761d61f70b57</webElementGuid>
+      <value>btnUpdateLoanProduct</value>
+      <webElementGuid>f1751d13-b7c8-410c-8c48-a7ce204c72e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login </value>
-      <webElementGuid>b7438e1c-b679-4601-92d3-dcaca71930fa</webElementGuid>
+      <value>  Update Loan Product</value>
+      <webElementGuid>579e8f94-6d21-46aa-9db7-107d426d84d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>dc8eae58-2023-4437-a410-904354d00757</webElementGuid>
+      <value>id(&quot;btnUpdateLoanProduct&quot;)</value>
+      <webElementGuid>6a11ad49-e1ca-4b97-9878-3c5130f16d9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>083ec00c-a64c-45dd-b05c-517316435333</webElementGuid>
+      <value>//button[@id='btnUpdateLoanProduct']</value>
+      <webElementGuid>98e134b8-4bdb-4f57-bd0a-dfd89f8e1ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/button</value>
-      <webElementGuid>0a697197-01a3-4109-b036-cf4ccf584d61</webElementGuid>
+      <value>//div[@id='content-wrapper']/div/div/div/div/div/div/button[2]</value>
+      <webElementGuid>e81f6515-5992-4220-a9e1-d8158c725dcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>5cbf0ba7-3eb0-45e6-9215-d871f4a5a7d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Details'])[1]/following::button[2]</value>
+      <webElementGuid>6a033ebe-8ab9-47e4-9eab-13cea21cd05d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>13a93cc9-541e-4d1d-b193-63783546ac24</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Product'])[1]/preceding::button[1]</value>
+      <webElementGuid>603617e9-c33f-4420-8f81-8d1dfc0baa6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password ?'])[1]/preceding::button[1]</value>
-      <webElementGuid>69e4c893-66d6-4707-bb65-53891bc7eab7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code'])[1]/preceding::button[1]</value>
+      <webElementGuid>a587e675-d282-4dea-8a78-f96dcf9d6372</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnLogin', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>c147266f-4bb7-49d8-9b79-ea061777612f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>8c2b8647-1cf1-47e9-8b4f-5d70d423b6d0</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Update Loan Product']/parent::*</value>
+      <webElementGuid>28cf46d8-ab7c-441d-a03c-6a5c480206a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>c4347e44-084d-4348-926b-45c986ba460c</webElementGuid>
+      <value>//button[2]</value>
+      <webElementGuid>3a3a9081-bfc6-4a4b-99e3-e2be03176278</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = 'Login ' or . = 'Login ')]</value>
-      <webElementGuid>4bd13424-b452-47f9-ac45-29046ed3c894</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btnUpdateLoanProduct' and (text() = '  Update Loan Product' or . = '  Update Loan Product')]</value>
+      <webElementGuid>a1951470-301c-43c0-b291-e976a38ade13</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

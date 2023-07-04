@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>a_Pro Rate on Half_btnLoadTermModal</name>
    <tag></tag>
-   <elementGuidId>def66385-48c3-4c82-90a8-d79cf53e2dab</elementGuidId>
+   <elementGuidId>7ee8dda3-da8e-4715-ac1a-45be7f1a48b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//a[@id='btnLoadTermModal']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#btnLoadTermModal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>207722d4-8c3a-4ce1-b577-b6c52b7b900c</webElementGuid>
+      <value>a</value>
+      <webElementGuid>0d515d7c-74d7-4ff9-b12d-6b0bfecc461d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block login-btn</value>
-      <webElementGuid>dc3f647b-10d3-43f3-9694-d360373eb0c9</webElementGuid>
+      <value>btn btm-sm btn-bilog btn-primary</value>
+      <webElementGuid>2f75d98e-146d-482e-abbb-dd4b903b623b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>0ed03bed-98fa-4fc8-9481-e3be964de963</webElementGuid>
+      <value>?panel=NewProductMatrix&amp;id=43</value>
+      <webElementGuid>213cd002-f18c-49e0-b6d8-e37bd068b7dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>9d005061-dc5a-4cea-8065-761d61f70b57</webElementGuid>
+      <value>btnLoadTermModal</value>
+      <webElementGuid>f50d20bc-3c26-4cfb-a772-b8dd9d1fbd2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Login </value>
-      <webElementGuid>b7438e1c-b679-4601-92d3-dcaca71930fa</webElementGuid>
+      <value>btnLoadTermModal</value>
+      <webElementGuid>c7a83697-37cf-4638-9a1c-4438f7b3f240</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Edit Term</value>
+      <webElementGuid>3150d04f-50eb-4874-9312-29c044707d56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>dc8eae58-2023-4437-a410-904354d00757</webElementGuid>
+      <value>id(&quot;btnLoadTermModal&quot;)</value>
+      <webElementGuid>568ff691-caab-45e5-80e6-6009ed19d59d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>083ec00c-a64c-45dd-b05c-517316435333</webElementGuid>
+      <value>//a[@id='btnLoadTermModal']</value>
+      <webElementGuid>627985c5-37a9-4d15-beb1-f9000eb84265</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='sign-in-form']/button</value>
-      <webElementGuid>0a697197-01a3-4109-b036-cf4ccf584d61</webElementGuid>
+      <value>//table[@id='LoanTermTable']/tbody/tr/td/a</value>
+      <webElementGuid>37a37978-b961-431c-97e8-c36281d9927a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>5cbf0ba7-3eb0-45e6-9215-d871f4a5a7d6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pro Rate on Half'])[1]/following::a[1]</value>
+      <webElementGuid>4ee6fd95-743b-4408-bd53-1fca283fa631</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>13a93cc9-541e-4d1d-b193-63783546ac24</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat Rate'])[1]/following::a[1]</value>
+      <webElementGuid>fa320ab3-19ab-4cfb-91f2-8dec6868c61a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password ?'])[1]/preceding::button[1]</value>
-      <webElementGuid>69e4c893-66d6-4707-bb65-53891bc7eab7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Product59151'])[1]/preceding::a[1]</value>
+      <webElementGuid>01831dae-4c81-4f57-8ba8-638036613e5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnLogin', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>c147266f-4bb7-49d8-9b79-ea061777612f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEEKLY'])[1]/preceding::a[1]</value>
+      <webElementGuid>39e65bc9-43b1-4bfa-80b1-6533a8a6f991</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>8c2b8647-1cf1-47e9-8b4f-5d70d423b6d0</webElementGuid>
+      <value>//a[contains(@href, '?panel=NewProductMatrix&amp;id=43')]</value>
+      <webElementGuid>ad23d803-bc90-4eab-9624-0029d9cd8021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>c4347e44-084d-4348-926b-45c986ba460c</webElementGuid>
+      <value>//td/a</value>
+      <webElementGuid>0f13d480-7255-4095-a9fb-debeb24caf3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = 'Login ' or . = 'Login ')]</value>
-      <webElementGuid>4bd13424-b452-47f9-ac45-29046ed3c894</webElementGuid>
+      <value>//a[@href = '?panel=NewProductMatrix&amp;id=43' and @id = 'btnLoadTermModal' and @name = 'btnLoadTermModal' and @title = 'Edit Term']</value>
+      <webElementGuid>29e9e476-a603-495b-95e0-ac6b98dcf0d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

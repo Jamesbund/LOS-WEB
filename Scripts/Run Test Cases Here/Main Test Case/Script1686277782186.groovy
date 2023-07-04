@@ -21,11 +21,19 @@ WebUI.callTestCase(findTestCase('LOS RBI/Login'), [:], FailureHandling.STOP_ON_F
 
 WebUI.callTestCase(findTestCase('LOS RBI/Dashboard/CID and view ePN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Amount/ADD'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Amount/LA_ADD'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Amount/EDIT'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Amount/LA_EDIT'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Amount/DELETE'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Amount/LA_DELETE'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Product/LP_ADD'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Product/LP_EDIT'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('LOS RBI/Loan Matrix/Loan Product/LP_DELETE'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('LOS RBI/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -25,6 +25,8 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 
 //
+WebUI.callTestCase(findTestCase('LOS RBI/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/span_Reports'))
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/span_Audit Trail Report'))
@@ -48,23 +50,21 @@ WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input__end
 
 WebUI.click(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/div_Audit Trail Report'))
 
-//WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/input__startDate1'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_14'))
-//WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/input__endDate1'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_14'))
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Generate in PDF'))
 
 WebUI.acceptAlert()
 
-WebUI.delay(20)
+WebUI.acceptAlert()
 
-WebUI.click(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Buttons/button_'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Close_Button/button_Close'))
 
 WebUI.switchToWindowIndex(0)
 
 WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.callTestCase(findTestCase('LOS RBI/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

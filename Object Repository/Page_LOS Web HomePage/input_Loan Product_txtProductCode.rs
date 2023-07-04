@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5081de02-a559-4842-ad4e-a4316e13e6d9</webElementGuid>
+      <webElementGuid>7b04dac6-6ca3-4a56-bb55-c1f290d5fd5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>df3bce48-be80-45b6-9326-06ccb51a9cc7</webElementGuid>
+      <webElementGuid>4389b45e-26e0-4998-b7c9-17b4ad79b311</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txtProductCode</value>
-      <webElementGuid>3aaad167-cef5-4188-a2af-e494ffc1ce7f</webElementGuid>
+      <webElementGuid>7b37ff37-7cff-43bf-b598-3e394bf88cc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>f98bd2d1-9d0e-41a3-b3c8-92297b71c980</webElementGuid>
+      <webElementGuid>10955e87-9bfb-4262-a9e2-8755d4dee184</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Product Code</value>
-      <webElementGuid>11c2e5c8-ce6a-4b4d-ae3f-b70491f00889</webElementGuid>
+      <webElementGuid>5471e7ca-4cf8-4123-9d12-ea0c6f11fad5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;container&quot;)/div[@id=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-xs-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-label-group&quot;]/input[@id=&quot;txtProductCode&quot;]</value>
-      <webElementGuid>96773993-38a9-467f-bb41-95fdd6dbb219</webElementGuid>
+      <webElementGuid>e2786848-b5e5-40e3-83a7-f52c1277919d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txtProductCode']</value>
-      <webElementGuid>988b6b45-628d-4278-9711-3e07097629d0</webElementGuid>
+      <webElementGuid>4895e9b3-ec44-4353-8257-ed16e6c190d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content-wrapper']/div/div/div/div[2]/div/div/div/input</value>
-      <webElementGuid>4896df9e-0559-419c-907c-5d4eb3c616c6</webElementGuid>
+      <webElementGuid>abf9d9d4-b0b4-49a8-b1b3-fe6258e7f347</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>c82a6643-7165-4f72-8259-593a593a277f</webElementGuid>
+      <webElementGuid>ade6abdd-c5c6-4de6-bd86-f8d8f8634cbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'txtProductCode' and @placeholder = 'Product Code']</value>
-      <webElementGuid>e13fe276-f2c6-49de-8f4c-5608ca19a71b</webElementGuid>
+      <webElementGuid>e5fc3e0f-b9ee-4dc6-ada0-595c540f639f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

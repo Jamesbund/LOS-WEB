@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_LOS Web HomePage/input_Thursday, June 8, 2023_txtSearchCID_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_LOS Web HomePage/i_Approval_fa fa-edit",
+      "brokenLocator": "//button[@id\u003d\u0027delProduct_42\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

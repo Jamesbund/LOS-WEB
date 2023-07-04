@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='delMatrix_92,5071,503694,Super Admin,Recommendation']/i</value>
+         <value>//button[@id='delProduct_48']/i</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>i.fa.fa-trash</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>9f4860ee-e84a-46e7-b8fb-2c9864d7f961</webElementGuid>
+      <webElementGuid>f996f0a9-d50f-4065-8076-d228a3645f20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,18 +30,58 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-trash</value>
-      <webElementGuid>ba4da7c0-49b1-4a60-b350-69e07a4183a4</webElementGuid>
+      <webElementGuid>963b1078-cd5e-4956-aef6-1a217b0393cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delMatrix_92,5071,503694,Super Admin,Recommendation&quot;)/i[@class=&quot;fa fa-trash&quot;]</value>
-      <webElementGuid>6eed127d-8626-4d2d-a6e8-2989135e6415</webElementGuid>
+      <value>id(&quot;delProduct_48&quot;)/i[@class=&quot;fa fa-trash&quot;]</value>
+      <webElementGuid>38b4ef2d-600b-455e-96de-00b28e4e7a17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='delProduct_48']/i</value>
+      <webElementGuid>20b7fb5a-2716-4753-949f-1423c53b7804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+      <webElementGuid>b1571575-7faa-4eec-8144-5583aab24b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='delProduct_42']/i</value>
+      <webElementGuid>79835fa4-4136-4030-8f1a-762b98aa4493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='btnLoadTermModal']/i</value>
+      <webElementGuid>daf92f14-e4f3-4b75-9ef1-299f9c881517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a/i</value>
+      <webElementGuid>45104f41-6ea9-4435-b1ac-62d30302b2d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
