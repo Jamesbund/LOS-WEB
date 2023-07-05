@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 
 //
-WebUI.callTestCase(findTestCase('LOS RBI/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LOS/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/span_Reports'))
 
@@ -66,5 +66,5 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.callTestCase(findTestCase('LOS RBI/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LOS/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
