@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('LOS/Login'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.callTestCase(findTestCase('LOS/Dashboard/CID and view ePN'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('LOS/Loan Matrix/Loan Amount/LA_ADD'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('LOS/Loan Matrix/Loan Amount/LA_EDIT'), [:], FailureHandling.CONTINUE_ON_FAILURE)

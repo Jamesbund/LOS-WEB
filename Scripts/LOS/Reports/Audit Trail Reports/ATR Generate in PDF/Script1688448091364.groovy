@@ -54,9 +54,14 @@ WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Gener
 
 WebUI.acceptAlert()
 
-WebUI.acceptAlert()
-
 WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Close_Button/button_Close'))
+
+WebUI.waitForElementPresent(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Close_Button/button_Close'), 
+    5)
+
+WebUI.verifyElementClickable(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Close_Button/button_Close'))
 
 WebUI.click(findTestObject('SpyWeb_Elements/Page_LOS Web HomePage/Audit_Trail/Close_Button/button_Close'))
 

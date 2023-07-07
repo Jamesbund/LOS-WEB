@@ -17,33 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Loan Matrix'))
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Pro Rate on Half_btnLoadTermModal'))
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Loan Product Matrix'))
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_Minimum Term_txtNewMaxTerm_1'), '25')
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/input_Require PPI_chkRequirePPI'))
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Update Loan Product'))
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyAlertPresent(5)
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(5)
-
-WebUI.acceptAlert()
-
-WebUI.verifyAlertPresent(5)
-
-WebUI.waitForAlert(5)
-
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_search'), 'Test Product')
-
-WebUI.delay(5)
-
-WebUI.callTestCase(findTestCase('LOS/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LOS/Reports/Audit Trail Reports/ATR Generate in PDF'), [:], FailureHandling.STOP_ON_FAILURE)
 

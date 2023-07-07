@@ -17,11 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Loan Matrix'))
+
+WebUI.callTestCase(findTestCase('LOS/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/a_Loan Product Matrix'))
+
 WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_search'), 'Test Product')
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/i_Approval_fa fa-edit'))
 
+WebUI.verifyAlertPresent(5)
+
+WebUI.waitForAlert(1)
+
 WebUI.acceptAlert()
+
+WebUI.verifyAlertPresent(5)
+
+WebUI.waitForAlert(1)
 
 WebUI.acceptAlert()
 

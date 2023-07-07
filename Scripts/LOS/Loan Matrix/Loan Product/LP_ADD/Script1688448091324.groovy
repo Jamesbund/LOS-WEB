@@ -79,7 +79,15 @@ WebUI.setText(findTestObject('Object Repository/Page_LOS Web HomePage/input_Mini
 
 WebUI.click(findTestObject('Object Repository/Page_LOS Web HomePage/button_Add Loan Product'))
 
+WebUI.verifyAlertPresent(5)
+
+WebUI.waitForAlert(1)
+
 WebUI.acceptAlert()
+
+WebUI.verifyAlertPresent(5)
+
+WebUI.waitForAlert(1)
 
 WebUI.acceptAlert()
 
